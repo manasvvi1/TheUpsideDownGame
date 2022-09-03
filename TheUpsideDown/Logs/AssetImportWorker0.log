@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49203
+50565
 Successfully changed project path to: /Users/nandinipaarshar9/Desktop/TheUpsideDownGameRepo/TheUpsideDown
 /Users/nandinipaarshar9/Desktop/TheUpsideDownGameRepo/TheUpsideDown
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 31.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 35.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/nandinipaarshar9/Desktop/TheUpsideDownGameRepo/TheUpsideDown/Assets
 GfxDevice: creating device client; threaded=0
-2022-09-03 14:26:38.806 Unity[38537:3769934] (null) preferred device: Apple M1 (high power)
-2022-09-03 14:26:38.806 Unity[38537:3769934] Metal devices available: 1
-2022-09-03 14:26:38.806 Unity[38537:3769934] 0: Apple M1 (high power)
-2022-09-03 14:26:38.806 Unity[38537:3769934] Using device Apple M1 (high power)
+2022-09-03 16:31:08.437 Unity[50476:3861940] (null) preferred device: Apple M1 (high power)
+2022-09-03 16:31:08.438 Unity[50476:3861940] Metal devices available: 1
+2022-09-03 16:31:08.438 Unity[50476:3861940] 0: Apple M1 (high power)
+2022-09-03 16:31:08.438 Unity[50476:3861940] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56537
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001622 seconds.
+Registered in 0.000862 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 31.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.179 seconds
+- Completed reload, in  1.169 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1179ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (1169ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (963ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (950ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (179ms)
+			SetupTypeCache (180ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
+			RebuildScriptCaches (40ms)
 			SetupLoadedEditorAssemblies (466ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (32ms)
-				BeforeProcessingInitializeOnLoad (30ms)
-				ProcessInitializeOnLoadAttributes (288ms)
-				ProcessInitializeOnLoadMethodAttributes (103ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (29ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (105ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000695 seconds.
+Registered in 0.002034 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.083 seconds
+- Completed reload, in  1.952 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2086ms)
-		BeginReloadAssembly (241ms)
+	ReloadAssembly (1954ms)
+		BeginReloadAssembly (238ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (30ms)
+			DisableScriptedObjects (29ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (1755ms)
-			LoadAssemblies (176ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1628ms)
+			LoadAssemblies (167ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (303ms)
+			SetupTypeCache (305ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (1020ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (903ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (174ms)
-				ProcessInitializeOnLoadAttributes (767ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
+				BeforeProcessingInitializeOnLoad (170ms)
+				ProcessInitializeOnLoadAttributes (663ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.000745 seconds.
+Validating Project structure ... 0.004340 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.000944 seconds.
+Upgrading shader files ...0.003888 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -125,20 +125,20 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
 Initializing Unity extensions:
-2022-09-03 14:26:43.365 Unity[38537:3769934] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003fb9d50 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-09-03 14:26:43.368 Unity[38537:3769934] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003fab020 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-09-03 16:31:12.976 Unity[50476:3861940] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000aec2a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-09-03 16:31:12.979 Unity[50476:3861940] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000a9caf0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1527 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 179.6 MB.
-System memory in use after: 178.8 MB.
+Unloading 1544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.2 MB.
+System memory in use after: 193.1 MB.
 
-Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 2003.
-Total: 2.463667 ms (FindLiveObjects: 0.078417 ms CreateObjectMapping: 0.033750 ms MarkObjects: 1.910375 ms  DeleteObjects: 0.440458 ms)
+Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 2041.
+Total: 2.230208 ms (FindLiveObjects: 0.081458 ms CreateObjectMapping: 0.031042 ms MarkObjects: 1.964917 ms  DeleteObjects: 0.152125 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -152,174 +152,444 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Assets(ingame)/materials/skybox
-  artifactKey: Guid(7cd3ac2af96c9422aa0382d938850448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/skybox using Guid(7cd3ac2af96c9422aa0382d938850448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7b7dff04a8714ddf18de98fd5cc81d') in 0.005902 seconds 
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(a7ce69eba8f364b66a646b92e7c3b533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(a7ce69eba8f364b66a646b92e7c3b533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d46200565ee42b91abf72afe69b8351') in 0.116006 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.193131 seconds.
-  path: Assets/Assets(ingame)/materials/skybox/skybackground.mat
-  artifactKey: Guid(581b40146e0504037945ac95293ebb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/skybox/skybackground.mat using Guid(581b40146e0504037945ac95293ebb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb56b0168945bc3f51b7be2989cad5e') in 0.403977 seconds 
+  Time since last request: 14.161600 seconds.
+  path: Assets/terrain_tools
+  artifactKey: Guid(bf50d36edbcc7456cb2e354c563eb720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools using Guid(bf50d36edbcc7456cb2e354c563eb720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f68c9890cea7b76da9ca0dc061aad57') in 0.001935 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 195.896706 seconds.
-  path: Assets/Assets(ingame)/materials/skybox/dikhololo_night_4k.hdr
-  artifactKey: Guid(4e36e5e9cb1804ba2b53962523a23142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/skybox/dikhololo_night_4k.hdr using Guid(4e36e5e9cb1804ba2b53962523a23142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb67221ee9d93618817588417189b95') in 0.757039 seconds 
+  Time since last request: 17.828648 seconds.
+  path: Assets/Standard Assets
+  artifactKey: Guid(79e4b52d5035f7547b356fe4a04b160d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets using Guid(79e4b52d5035f7547b356fe4a04b160d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e34840a405bc8ef5a07fc3dbf03ec4') in 0.002648 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000924 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-09-03 16:31:51.942 Unity[50476:3861940] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000ae74f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.123 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2124ms)
+		BeginReloadAssembly (244ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (97ms)
+		EndReloadAssembly (1782ms)
+			LoadAssemblies (179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (979ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (224ms)
+				ProcessInitializeOnLoadAttributes (682ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1538 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.1 MB.
+System memory in use after: 196.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2046.
+Total: 2.215834 ms (FindLiveObjects: 0.085375 ms CreateObjectMapping: 0.036334 ms MarkObjects: 2.025625 ms  DeleteObjects: 0.067750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 57.486551 seconds.
-  path: Assets/Assets(ingame)/materials/skybox/dikhololo_night_4k.hdr
-  artifactKey: Guid(4e36e5e9cb1804ba2b53962523a23142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/skybox/dikhololo_night_4k.hdr using Guid(4e36e5e9cb1804ba2b53962523a23142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87392eab4fe38ca213b4bbbb782647a') in 0.302552 seconds 
+  Time since last request: 519.670443 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a35c3cddc746e7501c0bd0ed6d4ce') in 0.223625 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 218.275741 seconds.
-  path: Assets/Assets(ingame)/materials/skybox/New Lighting Settings.lighting
-  artifactKey: Guid(bb5dc4da9512e413cb5a80fbb671fd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/skybox/New Lighting Settings.lighting using Guid(bb5dc4da9512e413cb5a80fbb671fd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f90ab3547c505d564d14bcc9f0d917') in 0.105919 seconds 
+  Time since last request: 31.318267 seconds.
+  path: Assets/terrain_tools/_TerrainAutoUpgrade
+  artifactKey: Guid(5903a2503f52645daa86f284d96469ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/_TerrainAutoUpgrade using Guid(5903a2503f52645daa86f284d96469ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1ab49e1691dcc961d1eb464283fb0d') in 0.002225 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 408.102360 seconds.
-  path: Assets/Assets(ingame)/materials/skybox/satara_night_4k.hdr
-  artifactKey: Guid(41d7e8e40ba7b4a4e9adb472efa1c3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/skybox/satara_night_4k.hdr using Guid(41d7e8e40ba7b4a4e9adb472efa1c3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bde3340a61787be4ec8ec5104bbb49') in 0.068838 seconds 
+  Time since last request: 0.123072 seconds.
+  path: Assets/terrain_tools/_TerrainAutoUpgrade/layer_Grass (Hill)Grass (Hill)_normalb956af97c33fc3d7.terrainlayer
+  artifactKey: Guid(f089f7946fbc149838d19ac242aa7642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/_TerrainAutoUpgrade/layer_Grass (Hill)Grass (Hill)_normalb956af97c33fc3d7.terrainlayer using Guid(f089f7946fbc149838d19ac242aa7642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc8980e7dc3c302813a593101114f97') in 0.324541 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 46.911426 seconds.
-  path: Assets/Assets(ingame)/materials/skybox/satara_night_4k.hdr
-  artifactKey: Guid(41d7e8e40ba7b4a4e9adb472efa1c3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/skybox/satara_night_4k.hdr using Guid(41d7e8e40ba7b4a4e9adb472efa1c3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd06870aa053de8386c179ed3b71c43') in 0.042741 seconds 
+  Time since last request: 0.000288 seconds.
+  path: Assets/terrain_tools/_TerrainAutoUpgrade/layer_SandAlbedo3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(470bf422fe0c6462f8c7263532cc65d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/_TerrainAutoUpgrade/layer_SandAlbedo3d3aba195e4d26ee.terrainlayer using Guid(470bf422fe0c6462f8c7263532cc65d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26170cde9a6565358ac79636d6f25add') in 0.015298 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 257.821981 seconds.
-  path: Assets/Assets(ingame)/materials/skybox/skybackground.mat
-  artifactKey: Guid(581b40146e0504037945ac95293ebb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/skybox/skybackground.mat using Guid(581b40146e0504037945ac95293ebb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07cba7fcb73e40468fbeec09053f8159') in 0.423453 seconds 
+  Time since last request: 0.000341 seconds.
+  path: Assets/terrain_tools/_TerrainAutoUpgrade/layer_Grass (Meadows)Grass (Meadows)_normalb956af97c33fc3d7.terrainlayer
+  artifactKey: Guid(73b93b9ae9db34bef96bc9e4d20500f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/_TerrainAutoUpgrade/layer_Grass (Meadows)Grass (Meadows)_normalb956af97c33fc3d7.terrainlayer using Guid(73b93b9ae9db34bef96bc9e4d20500f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4654c40728a56232db74a99d242902') in 0.009821 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 67.897172 seconds.
-  path: Assets/Assets(ingame)/characters
-  artifactKey: Guid(efb67e784d60747febd8d208fe4070a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/characters using Guid(efb67e784d60747febd8d208fe4070a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b641aef7d22bcf83d2066e5c44f485') in 0.012639 seconds 
+  Time since last request: 0.000196 seconds.
+  path: Assets/terrain_tools/_TerrainAutoUpgrade/layer_Grass (Muddy)Grass (Muddy)_normalb956af97c33fc3d7.terrainlayer
+  artifactKey: Guid(87c65a65d635f42a1b38e01549d54ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/_TerrainAutoUpgrade/layer_Grass (Muddy)Grass (Muddy)_normalb956af97c33fc3d7.terrainlayer using Guid(87c65a65d635f42a1b38e01549d54ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bff3f215afa1ef0568dccbe473aabbf') in 0.009161 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.314581 seconds.
-  path: Assets/Assets(ingame)/characters/vecna's house
-  artifactKey: Guid(b8773e12878d64965aa64ae8a9eaf521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/characters/vecna's house using Guid(b8773e12878d64965aa64ae8a9eaf521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a7ffd0a8e74f7104f7a423057fce70') in 0.005817 seconds 
+  Time since last request: 0.000183 seconds.
+  path: Assets/terrain_tools/_TerrainAutoUpgrade/layer_Grass&RockGrass&Rock_normalb956af97c33fc3d7.terrainlayer
+  artifactKey: Guid(a0b09f155f9674ceabb4b23c02769646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/_TerrainAutoUpgrade/layer_Grass&RockGrass&Rock_normalb956af97c33fc3d7.terrainlayer using Guid(a0b09f155f9674ceabb4b23c02769646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f341622f859346014b4cc48149b56180') in 0.008881 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 84.578962 seconds.
-  path: Assets/Assets(ingame)/characters/vecna's house/HH_40_Export.fbx
-  artifactKey: Guid(e474209fb386c417ca65f9d0b790f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/characters/vecna's house/HH_40_Export.fbx using Guid(e474209fb386c417ca65f9d0b790f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821b03333dcedaef8cfe150bf51ff962') in 2.032302 seconds 
+  Time since last request: 5.936810 seconds.
+  path: Assets/terrain_tools/Standard Assets/Environment
+  artifactKey: Guid(6ca8c4e270f964e0da9f731d7d34b123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/Standard Assets/Environment using Guid(6ca8c4e270f964e0da9f731d7d34b123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68590199e877190c58d5b39b491140f8') in 0.001236 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.343181 seconds.
-  path: Assets/Assets(ingame)/materials/vecna'shouse
-  artifactKey: Guid(8a18592c98ba547b89fa1c00ce03e9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/vecna'shouse using Guid(8a18592c98ba547b89fa1c00ce03e9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9dca1be924a49c896e4797ea12896f') in 0.001441 seconds 
+  Time since last request: 1.813027 seconds.
+  path: Assets/terrain_tools/Standard Assets/Environment/TerrainAssets
+  artifactKey: Guid(7e6f84bf81c8d4de280f1133cff7e601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/Standard Assets/Environment/TerrainAssets using Guid(7e6f84bf81c8d4de280f1133cff7e601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb13f86e3e09734e83d17d8479d1d77') in 0.001289 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.893448 seconds.
-  path: Assets/Assets(ingame)/materials/vecna'shouse/VegetHH_SD.png
-  artifactKey: Guid(111b547d44f834b08bd7aeb41a50f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/vecna'shouse/VegetHH_SD.png using Guid(111b547d44f834b08bd7aeb41a50f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035a6b3bc20f789919bf1e4de40a7fda') in 0.260109 seconds 
+  Time since last request: 1.545597 seconds.
+  path: Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/BillboardTextures
+  artifactKey: Guid(cba4562cece794697b418ce8e7c04b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/BillboardTextures using Guid(cba4562cece794697b418ce8e7c04b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc65373ac80194450c19e7931f700f02') in 0.001200 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Assets(ingame)/materials/vecna'shouse/Pack01_House.jpeg
-  artifactKey: Guid(73f325263c153406380fc318f801d3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/vecna'shouse/Pack01_House.jpeg using Guid(73f325263c153406380fc318f801d3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9a68298fc952c83de107f144cbe6bd') in 0.106538 seconds 
+  Time since last request: 0.121565 seconds.
+  path: Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond01AlbedoAlpha.psd
+  artifactKey: Guid(2c528fec5d95e4ac28cf46399b887662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond01AlbedoAlpha.psd using Guid(2c528fec5d95e4ac28cf46399b887662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22920263525a24bb8ef66a3acc3f946') in 0.590230 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Assets(ingame)/materials/vecna'shouse/Pack02.jpeg
-  artifactKey: Guid(926962516cc5b4474ae5b86f2da65ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/vecna'shouse/Pack02.jpeg using Guid(926962516cc5b4474ae5b86f2da65ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd397888f6f6795d8d29b5d6ba4bf94d1') in 0.009591 seconds 
+  Time since last request: 0.000234 seconds.
+  path: Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond02AlbedoAlpha.psd
+  artifactKey: Guid(d6cdc79ec19714fcd980ca3f6ac01a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond02AlbedoAlpha.psd using Guid(d6cdc79ec19714fcd980ca3f6ac01a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc296fdb78907023a452de974ee0d9fd') in 0.008974 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Assets(ingame)/materials/vecna'shouse/Bush01.png
-  artifactKey: Guid(33a7aa5b08a264d5fb49069f67309c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/vecna'shouse/Bush01.png using Guid(33a7aa5b08a264d5fb49069f67309c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b1434b8cd30ae3cbc8c517631595d8') in 0.012054 seconds 
+  Time since last request: 5.646455 seconds.
+  path: Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/SurfaceTextures
+  artifactKey: Guid(4f9d71771b07cb6438e0d35b038b43a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/SurfaceTextures using Guid(4f9d71771b07cb6438e0d35b038b43a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7740e50df739f6dd6f78ec2b9ba70e0') in 0.001474 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Assets(ingame)/materials/vecna'shouse/Pack02-1.png
-  artifactKey: Guid(ea852412cf7f14bdb85377efc72eb01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/vecna'shouse/Pack02-1.png using Guid(ea852412cf7f14bdb85377efc72eb01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a0c6479fd1101f2356acb994b067cc') in 0.013378 seconds 
+  Time since last request: 0.117916 seconds.
+  path: Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/SurfaceTextures/CliffAlbedoSpecular.psd
+  artifactKey: Guid(18214e9d6af6248559d501391856f1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/SurfaceTextures/CliffAlbedoSpecular.psd using Guid(18214e9d6af6248559d501391856f1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb0ea6bb98275a2682ec3dd7f193b4e') in 0.011212 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 592.539668 seconds.
-  path: Assets/Assets(ingame)/materials/vecna'shouse/mat1.mat
-  artifactKey: Guid(4f3f8361959074234ad1cf66f97a71df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/vecna'shouse/mat1.mat using Guid(4f3f8361959074234ad1cf66f97a71df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cff693894540397aaffd3224199c0d') in 0.106636 seconds 
+  Time since last request: 0.000164 seconds.
+  path: Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyAlbedoSpecular.bmp
+  artifactKey: Guid(ef5c51cfa2ce46043a41a376b560c525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyAlbedoSpecular.bmp using Guid(ef5c51cfa2ce46043a41a376b560c525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c939048a537231a100cdb864027248b8') in 0.533660 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.853400 seconds.
-  path: Assets/Assets(ingame)/materials/vecna'shouse/mat2.mat
-  artifactKey: Guid(3fec3fa715cff42618d9eedd6dd97c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/vecna'shouse/mat2.mat using Guid(3fec3fa715cff42618d9eedd6dd97c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33a38ccc5747d098ded8da0e3dad632') in 0.011277 seconds 
+  Time since last request: 0.000207 seconds.
+  path: Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyNormals.bmp
+  artifactKey: Guid(58a059b07b093a745b47c2191525ddce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyNormals.bmp using Guid(58a059b07b093a745b47c2191525ddce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170f43e3baaad6dbb33987f95c0e9a0c') in 0.020878 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.768238 seconds.
-  path: Assets/Assets(ingame)/materials/vecna'shouse/mat3.mat
-  artifactKey: Guid(8a4895dada0a347b2b2eb346bb7f3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/vecna'shouse/mat3.mat using Guid(8a4895dada0a347b2b2eb346bb7f3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b962bf400bc94b8710592c00b09a295') in 0.010811 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.226110 seconds.
-  path: Assets/Assets(ingame)/materials/vecna'shouse/mat4.mat
-  artifactKey: Guid(7b23232284d874c8fb565df5e6861ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/vecna'shouse/mat4.mat using Guid(7b23232284d874c8fb565df5e6861ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760e6a4539a35f7237a80afc829eebb7') in 0.010514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.006494 seconds.
-  path: Assets/Assets(ingame)/materials/vecna'shouse/mat5.mat
-  artifactKey: Guid(624f02ed8c58347699d64d65ef59a647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/vecna'shouse/mat5.mat using Guid(624f02ed8c58347699d64d65ef59a647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07cd2a9417c1a2ce32cbee74d3e107b') in 0.010253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 582.110047 seconds.
-  path: Assets/Scenes/Level3.unity
-  artifactKey: Guid(a758bf365b6e740c18ba46bb2358bd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level3.unity using Guid(a758bf365b6e740c18ba46bb2358bd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377c3a75f4fa9795761494a6c1a833b8') in 0.034069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.355144 seconds.
-  path: Assets/Assets(ingame)/materials/vecna'shouse/mat1.mat
-  artifactKey: Guid(4f3f8361959074234ad1cf66f97a71df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/vecna'shouse/mat1.mat using Guid(4f3f8361959074234ad1cf66f97a71df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0da6503cf1e674b6e7719779219440') in 0.037965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Assets(ingame)/materials/vecna'shouse/mat4.mat
-  artifactKey: Guid(7b23232284d874c8fb565df5e6861ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/vecna'shouse/mat4.mat using Guid(7b23232284d874c8fb565df5e6861ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9b813e6ee3e9521ad63f952878a3de') in 0.018097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Assets(ingame)/materials/vecna'shouse/mat2.mat
-  artifactKey: Guid(3fec3fa715cff42618d9eedd6dd97c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/vecna'shouse/mat2.mat using Guid(3fec3fa715cff42618d9eedd6dd97c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2753c30fea6ea7a126585ad26f1bcaa') in 0.021477 seconds 
+  Time since last request: 0.000191 seconds.
+  path: Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/SurfaceTextures/SandAlbedo.psd
+  artifactKey: Guid(bfd675cc0db1d4656b75dc6d6ba91142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/SurfaceTextures/SandAlbedo.psd using Guid(bfd675cc0db1d4656b75dc6d6ba91142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7692325eee57f0bc6dd2a6854ee21ca9') in 0.007466 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000205 seconds.
-  path: Assets/Assets(ingame)/materials/vecna'shouse/mat5.mat
-  artifactKey: Guid(624f02ed8c58347699d64d65ef59a647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/vecna'shouse/mat5.mat using Guid(624f02ed8c58347699d64d65ef59a647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344a9123b35a16aaee61423d963e8c30') in 0.014577 seconds 
+  path: Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd
+  artifactKey: Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd using Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7446f76f1831426d5c359052fd822bdd') in 0.006492 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Assets(ingame)/materials/vecna'shouse/mat3.mat
-  artifactKey: Guid(8a4895dada0a347b2b2eb346bb7f3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/vecna'shouse/mat3.mat using Guid(8a4895dada0a347b2b2eb346bb7f3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2323e603dcb3eef7c8f0acdae491b5f') in 0.018758 seconds 
+  Time since last request: 0.000322 seconds.
+  path: Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd
+  artifactKey: Guid(c6e0767b1f8c34890ac245217f4b9731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd using Guid(c6e0767b1f8c34890ac245217f4b9731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8560d0d617fed57b92e5dc0fedef35') in 0.006933 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 159.122666 seconds.
-  path: Assets/Scenes/Entry.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Entry.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4becc5ec3e88118db14c12e06fe08fc3') in 0.018058 seconds 
+  Time since last request: 12.006713 seconds.
+  path: Assets/terrain_tools/Tom's Terrain Tools
+  artifactKey: Guid(cc9df66836d9944928e8e413a770a903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/Tom's Terrain Tools using Guid(cc9df66836d9944928e8e413a770a903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ffd6629265a193e15d74bcc776d8d6') in 0.001285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.273640 seconds.
+  path: Assets/terrain_tools/Tom's Terrain Tools/2DTools
+  artifactKey: Guid(dd70d97ed22bd1f4ea087e1eb99ac0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/Tom's Terrain Tools/2DTools using Guid(dd70d97ed22bd1f4ea087e1eb99ac0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8408acfb4e92b5466a82bd415ebae2') in 0.000828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.472892 seconds.
+  path: Assets/terrain_tools/Tom's Terrain Tools/2DTools/Editor
+  artifactKey: Guid(b59d157b8aba2934daec8b7f09f43289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/Tom's Terrain Tools/2DTools/Editor using Guid(b59d157b8aba2934daec8b7f09f43289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa3008b69e575fd7f63f67ccb9568cb') in 0.002085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.811928 seconds.
+  path: Assets/terrain_tools/Tom's Terrain Tools/Editor
+  artifactKey: Guid(e126a43926c1b4087ba2e1cf8ee5fa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain_tools/Tom's Terrain Tools/Editor using Guid(e126a43926c1b4087ba2e1cf8ee5fa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f655729839ba943422bf40079679c292') in 0.001630 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001069 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-09-03 16:42:35.379 Unity[50476:3861940] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000ae9570 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.365 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2366ms)
+		BeginReloadAssembly (259ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (2012ms)
+			LoadAssemblies (330ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (345ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1039ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (255ms)
+				ProcessInitializeOnLoadAttributes (704ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.3 MB.
+System memory in use after: 208.4 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2045.
+Total: 5.752916 ms (FindLiveObjects: 0.116750 ms CreateObjectMapping: 0.036334 ms MarkObjects: 5.508834 ms  DeleteObjects: 0.089667 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 174.116266 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(b0b2b758c0704479aaeccb01f02ef384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(b0b2b758c0704479aaeccb01f02ef384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04407b3db086bff60f048cfc8cc3f852') in 0.116733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 375.505186 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(b0b2b758c0704479aaeccb01f02ef384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(b0b2b758c0704479aaeccb01f02ef384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e60d676b66458eedb18a0780cf9ec2') in 0.034265 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003470 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-09-03 16:52:01.908 Unity[50476:3861940] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000addab0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.047 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3053ms)
+		BeginReloadAssembly (429ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (65ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (172ms)
+		EndReloadAssembly (2492ms)
+			LoadAssemblies (298ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1496ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (324ms)
+				ProcessInitializeOnLoadAttributes (958ms)
+				ProcessInitializeOnLoadMethodAttributes (188ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1526 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.4 MB.
+System memory in use after: 211.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2054.
+Total: 3.865709 ms (FindLiveObjects: 0.117458 ms CreateObjectMapping: 0.039458 ms MarkObjects: 3.605167 ms  DeleteObjects: 0.102334 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005400 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 32.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-09-03 16:53:30.573 Unity[50476:3861940] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000aeac30 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.479 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3482ms)
+		BeginReloadAssembly (363ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (49ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (125ms)
+		EndReloadAssembly (2993ms)
+			LoadAssemblies (323ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1552ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (257ms)
+				ProcessInitializeOnLoadAttributes (1020ms)
+				ProcessInitializeOnLoadMethodAttributes (224ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (5ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1537 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 221.0 MB.
+System memory in use after: 221.1 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2077.
+Total: 4.836833 ms (FindLiveObjects: 0.085042 ms CreateObjectMapping: 0.034375 ms MarkObjects: 4.642708 ms  DeleteObjects: 0.073958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 143.964865 seconds.
+  path: Assets/ImageToStl.com_portal.fbx
+  artifactKey: Guid(345723ea2dc3247809ede2c5ac606684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToStl.com_portal.fbx using Guid(345723ea2dc3247809ede2c5ac606684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affaee1c26f3bf27a03ff5f95b91efd2') in 1.909353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 247.418722 seconds.
+  path: Assets/Visual Design Cafe
+  artifactKey: Guid(ab80b6050f1b94d90b7f128338749178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe using Guid(ab80b6050f1b94d90b7f128338749178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feeeb0d455752bf2de38da4555f68120') in 0.005178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 366.898025 seconds.
+  path: Assets/Visual Design Cafe/Documentation
+  artifactKey: Guid(703a405f99a7ca94da1b1ba84c8afdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Documentation using Guid(703a405f99a7ca94da1b1ba84c8afdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c6dcede707b9f0ac65698f48a91b7a') in 0.008709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.593274 seconds.
+  path: Assets/Visual Design Cafe/Documentation/Nature Renderer Documentation.url
+  artifactKey: Guid(24279acf953d22949aa652cf6fec63ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Documentation/Nature Renderer Documentation.url using Guid(24279acf953d22949aa652cf6fec63ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b66a6a261b75eb2d58d3feed8677f31') in 0.233641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.317460 seconds.
+  path: Assets/Visual Design Cafe/Documentation/Nature Renderer Documentation.pdf
+  artifactKey: Guid(a803e9aeb7a35534aac63be05cdd17ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Documentation/Nature Renderer Documentation.pdf using Guid(a803e9aeb7a35534aac63be05cdd17ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7d9591f58aa1573dcdc5da87114c37') in 0.097026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.079016 seconds.
+  path: Assets/Visual Design Cafe/Package Manager
+  artifactKey: Guid(9278ae6845409184d827d4d5574f8deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Package Manager using Guid(9278ae6845409184d827d4d5574f8deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab545c2cc5b3f7f822ba56978fc93ad') in 0.002731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.143966 seconds.
+  path: Assets/Visual Design Cafe/Package Manager/Package Manager.asset
+  artifactKey: Guid(89110aed2370d1145950b94767bd5d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Package Manager/Package Manager.asset using Guid(89110aed2370d1145950b94767bd5d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4a1b4869eaf2a94798a3ea7e9735e4') in 0.018462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.491482 seconds.
+  path: Assets/Visual Design Cafe/Package Manager/VisualDesignCafe.Packages.pdb
+  artifactKey: Guid(20464c0b2f035794c918b169c75b9062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Package Manager/VisualDesignCafe.Packages.pdb using Guid(20464c0b2f035794c918b169c75b9062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05655c1651f4d6db107eb8a6d9d83174') in 0.103020 seconds 

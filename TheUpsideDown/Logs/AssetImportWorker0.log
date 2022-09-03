@@ -593,3 +593,120 @@ Received Import Request.
   path: Assets/Visual Design Cafe/Package Manager/VisualDesignCafe.Packages.pdb
   artifactKey: Guid(20464c0b2f035794c918b169c75b9062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Visual Design Cafe/Package Manager/VisualDesignCafe.Packages.pdb using Guid(20464c0b2f035794c918b169c75b9062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05655c1651f4d6db107eb8a6d9d83174') in 0.103020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13413.269975 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(aff400c7214254b18905b995f349ee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(aff400c7214254b18905b995f349ee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8523ebacf8aed43fd5bc873aa3006f33') in 0.028458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.026857 seconds.
+  path: Assets/Assets(ingame)
+  artifactKey: Guid(323c8fbd416e945d2918c81f3640b7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame) using Guid(323c8fbd416e945d2918c81f3640b7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e841ffa8749ce038056fe159c1388ecd') in 0.004305 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003284 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-09-03 23:32:53.027 Unity[50476:3861940] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000ade4c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  6.167 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6208ms)
+		BeginReloadAssembly (1270ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (142ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (592ms)
+		EndReloadAssembly (4684ms)
+			LoadAssemblies (648ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (764ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (2398ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (470ms)
+				ProcessInitializeOnLoadAttributes (1562ms)
+				ProcessInitializeOnLoadMethodAttributes (329ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1536 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.5 MB.
+System memory in use after: 238.6 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2124.
+Total: 5.743250 ms (FindLiveObjects: 1.033792 ms CreateObjectMapping: 0.083041 ms MarkObjects: 4.520292 ms  DeleteObjects: 0.104708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 144.586524 seconds.
+  path: Assets/Scenes/Level2.unity
+  artifactKey: Guid(b99e541eb722745e1a2ebc081bffd276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level2.unity using Guid(b99e541eb722745e1a2ebc081bffd276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234ade18426415256a93939d154527a3') in 0.006720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.816192 seconds.
+  path: Assets/Assets(ingame)/characters/demi
+  artifactKey: Guid(232e7e11a61c444d390d4a81f858af03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/demi using Guid(232e7e11a61c444d390d4a81f858af03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84430b2ba667a5d06de6f2af0266ad0e') in 0.008700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.976394 seconds.
+  path: Assets/Assets(ingame)/characters/demi/Demogorgon 1.fbx
+  artifactKey: Guid(2a3c6220262854bffaeed154f2cd7452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/demi/Demogorgon 1.fbx using Guid(2a3c6220262854bffaeed154f2cd7452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf73a4f3b8af5d9fa8a3496443e474b') in 1.247207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.527002 seconds.
+  path: Assets/Assets(ingame)/materials/demi
+  artifactKey: Guid(8835a8ace899d4cfaa5beaaff34564d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/demi using Guid(8835a8ace899d4cfaa5beaaff34564d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5880add71513391a75c9d6c7d3d97bd3') in 0.002473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.130990 seconds.
+  path: Assets/Assets(ingame)/materials/demi/T_QK_Head00_BC.png
+  artifactKey: Guid(4ed9bfd127c8941c2b2406bdff005e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/demi/T_QK_Head00_BC.png using Guid(4ed9bfd127c8941c2b2406bdff005e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39169440274327539f908185aa8701a3') in 1.410439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000877 seconds.
+  path: Assets/Assets(ingame)/materials/demi/T_QK_Teeth00_BC.png
+  artifactKey: Guid(ec782bf9a2c5c4f42acd4eacffcd54d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/demi/T_QK_Teeth00_BC.png using Guid(ec782bf9a2c5c4f42acd4eacffcd54d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91f5a00ffd95fad94208b4e518d27c4') in 0.035598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.501447 seconds.
+  path: Assets/Assets(ingame)/materials/demi/New Material.mat
+  artifactKey: Guid(cc55d9815993d4663a4422acf4aa7328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/demi/New Material.mat using Guid(cc55d9815993d4663a4422acf4aa7328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d58643a32c664e62bbfef43db269321') in 0.161092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.985935 seconds.
+  path: Assets/Assets(ingame)/characters/demi/ImageToStl.com_demogorgon (stranger things).fbx
+  artifactKey: Guid(209903fb825ee4c3e92ab6295a6f9de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/demi/ImageToStl.com_demogorgon (stranger things).fbx using Guid(209903fb825ee4c3e92ab6295a6f9de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6696bee700ffbdcc60cd6cf25214465') in 0.157502 seconds 

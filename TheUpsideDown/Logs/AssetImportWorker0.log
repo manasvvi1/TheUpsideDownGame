@@ -1,0 +1,535 @@
+Unity Editor version:    2020.3.38f1 (8f5fde82e2dc)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.4 (Build 21F79)
+Darwin version:          21.5.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/nandinipaarshar9/Desktop/TheUpsideDownGameRepo/TheUpsideDown
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64801
+Successfully changed project path to: /Users/nandinipaarshar9/Desktop/TheUpsideDownGameRepo/TheUpsideDown
+/Users/nandinipaarshar9/Desktop/TheUpsideDownGameRepo/TheUpsideDown
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 104.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/nandinipaarshar9/Desktop/TheUpsideDownGameRepo/TheUpsideDown/Assets
+GfxDevice: creating device client; threaded=0
+2022-09-03 11:57:47.050 Unity[35348:3722231] (null) preferred device: Apple M1 (high power)
+2022-09-03 11:57:47.059 Unity[35348:3722231] Metal devices available: 1
+2022-09-03 11:57:47.060 Unity[35348:3722231] 0: Apple M1 (high power)
+2022-09-03 11:57:47.060 Unity[35348:3722231] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.009975 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 57.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.632 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2632ms)
+		BeginReloadAssembly (307ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (5ms)
+		EndReloadAssembly (1978ms)
+			LoadAssemblies (315ms)
+			RebuildTransferFunctionScriptingTraits (7ms)
+			SetupTypeCache (448ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (816ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (501ms)
+				ProcessInitializeOnLoadMethodAttributes (179ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002840 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.207 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3210ms)
+		BeginReloadAssembly (364ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (45ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (2707ms)
+			LoadAssemblies (252ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (498ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (1548ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (298ms)
+				ProcessInitializeOnLoadAttributes (1139ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.000117 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.000185 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Initializing Unity extensions:
+2022-09-03 11:57:54.737 Unity[35348:3722231] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000012bb560 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-09-03 11:57:54.742 Unity[35348:3722231] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000012cb4f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1522 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.9 MB.
+System memory in use after: 176.1 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 1997.
+Total: 3.657667 ms (FindLiveObjects: 0.100584 ms CreateObjectMapping: 0.048458 ms MarkObjects: 2.885000 ms  DeleteObjects: 0.622708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Entry.unity
+  artifactKey: Guid(6b7a9e6edd8f744408296f9700455cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entry.unity using Guid(6b7a9e6edd8f744408296f9700455cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b115e53c206fac44bc16a02f006f7e4') in 0.007664 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.039982 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-09-03 12:08:36.700 Unity[35348:3722231] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000128bb80 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  4.694 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4702ms)
+		BeginReloadAssembly (656ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (71ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (286ms)
+		EndReloadAssembly (3874ms)
+			LoadAssemblies (393ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (603ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (2392ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (416ms)
+				ProcessInitializeOnLoadAttributes (1808ms)
+				ProcessInitializeOnLoadMethodAttributes (134ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.9 MB.
+System memory in use after: 176.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2006.
+Total: 7.336500 ms (FindLiveObjects: 0.211834 ms CreateObjectMapping: 0.118667 ms MarkObjects: 6.880250 ms  DeleteObjects: 0.123625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 644.210357 seconds.
+  path: Assets/ImageToStl.com_portal.fbx
+  artifactKey: Guid(345723ea2dc3247809ede2c5ac606684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageToStl.com_portal.fbx using Guid(345723ea2dc3247809ede2c5ac606684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bffe8ae7921bbd1d0ea1d9a794ec3a74') in 1.989588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.507587 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9168112a17b07f3ee034ca0d2dc1544d') in 0.001932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.654908 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ec1181953ef655f1cd4a5e2b978215') in 0.002882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.477095 seconds.
+  path: Assets/Scenes/Entry.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Entry.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513275dcfb6810da41a5ace3f6812c2f') in 0.000755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.838313 seconds.
+  path: Assets/Others/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Others/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5665a501af7b94f3be94c4782797dc8') in 0.111142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Others/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Others/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6dc331e9dd7a1d392bef19412a1e330') in 0.003613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.050488 seconds.
+  path: Assets/Assets(ingame)/materials
+  artifactKey: Guid(d87d56b4ae52747e1a422ceea6a932d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials using Guid(d87d56b4ae52747e1a422ceea6a932d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daab7494d2a95499226e0f0136d1b519') in 0.000989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.963055 seconds.
+  path: Assets/Assets(ingame)/materials/demigorgon
+  artifactKey: Guid(0b33405685f8245639c0f230cf7f9e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/demigorgon using Guid(0b33405685f8245639c0f230cf7f9e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdfcd5b30fb21bdf1c0808b429eb896') in 0.001213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.137374 seconds.
+  path: Assets/Assets(ingame)/materials/demigorgon/body.mat
+  artifactKey: Guid(6a0272b8e53c545b3bd2441d0878dbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/demigorgon/body.mat using Guid(6a0272b8e53c545b3bd2441d0878dbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1654efd3b136df1fc3820edf4b88d6d') in 0.148254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Assets(ingame)/materials/demigorgon/head.mat
+  artifactKey: Guid(7ad15f70d71a94e9eaac7c4068d247fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/demigorgon/head.mat using Guid(7ad15f70d71a94e9eaac7c4068d247fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf62ba444487b342223d279a58bbf6f') in 0.008977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Assets(ingame)/materials/demigorgon/T_QK_Head00_BC.png
+  artifactKey: Guid(8693ffd42205543398587ad42a05f3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/demigorgon/T_QK_Head00_BC.png using Guid(8693ffd42205543398587ad42a05f3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f664e72480e742c7b58629d95093c7') in 0.698737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Assets(ingame)/materials/demigorgon/T_QK_Teeth00_BC.png
+  artifactKey: Guid(e59b2ea11c3054f65a12853fe8151d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/demigorgon/T_QK_Teeth00_BC.png using Guid(e59b2ea11c3054f65a12853fe8151d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42e3d7313474b2b8aa846c264a18fa9') in 0.016051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.135259 seconds.
+  path: Assets/Assets(ingame)/materials/demigorgon/head 1.mat
+  artifactKey: Guid(61c9fdb35e2924afe8d63b392dee5a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/demigorgon/head 1.mat using Guid(61c9fdb35e2924afe8d63b392dee5a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d35fa9b958e627e80fc738ef4bff6b0') in 0.034957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.241896 seconds.
+  path: Assets/Assets(ingame)/materials/demigorgon/teeth.mat
+  artifactKey: Guid(27c1dadbeef9441fab454cad6ff2b9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/demigorgon/teeth.mat using Guid(27c1dadbeef9441fab454cad6ff2b9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cb0d03734d013744a55fd82eb3de2c') in 0.043156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.559085 seconds.
+  path: Assets/Assets(ingame)/materials/eleven
+  artifactKey: Guid(3a5da3626c2f94f76af8cd9a92d7e854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/eleven using Guid(3a5da3626c2f94f76af8cd9a92d7e854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f598ba4cadc0be11f7d9fee749dea4') in 0.001668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.115727 seconds.
+  path: Assets/Assets(ingame)/materials/eleven/body.mat
+  artifactKey: Guid(4720fdd6df6d54ff68dfb9115b259b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/eleven/body.mat using Guid(4720fdd6df6d54ff68dfb9115b259b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c13b6632767102ccd9f49d50b830cb1') in 0.012258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Assets(ingame)/materials/eleven/face.mat
+  artifactKey: Guid(298aeeef8794e44448fcf8d57eda2de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/eleven/face.mat using Guid(298aeeef8794e44448fcf8d57eda2de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0329efc8d388d2fd48662f2cf963f12') in 0.012096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Assets(ingame)/materials/eleven/BodyBaseColor.png
+  artifactKey: Guid(4ba3df3c513db40be9aa365936db3de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/eleven/BodyBaseColor.png using Guid(4ba3df3c513db40be9aa365936db3de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e04a94b86af0a7e74dcb53653fe97ec') in 0.016889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Assets(ingame)/materials/eleven/ONZE.png
+  artifactKey: Guid(9e4014ffe80004f2893230da99165b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/eleven/ONZE.png using Guid(9e4014ffe80004f2893230da99165b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81165ef1695bf5f7ef3452bf6c83045e') in 0.010057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.486948 seconds.
+  path: Assets/Assets(ingame)/materials/eleven/face 1.mat
+  artifactKey: Guid(83ba460b44c954d488e180e8b19b1583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/eleven/face 1.mat using Guid(83ba460b44c954d488e180e8b19b1583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b743575e6d32c88076125d797884925d') in 0.011749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.630431 seconds.
+  path: Assets/Assets(ingame)/materials/eleven/body.mat
+  artifactKey: Guid(4720fdd6df6d54ff68dfb9115b259b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/eleven/body.mat using Guid(4720fdd6df6d54ff68dfb9115b259b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472a08eaab5a9b20636dadf13d0ced79') in 0.027069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.738024 seconds.
+  path: Assets/Assets(ingame)/materials/portal/checkers_albedo.jpeg
+  artifactKey: Guid(3798dabd36baf4c2596a08aff01156b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/checkers_albedo.jpeg using Guid(3798dabd36baf4c2596a08aff01156b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003fae79498d94615a71a265b78fcad4') in 0.481750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Assets(ingame)/materials/portal/Nebula Blue.png
+  artifactKey: Guid(ddcac1fac1f5c8943a30c2ef6b724062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/Nebula Blue.png using Guid(ddcac1fac1f5c8943a30c2ef6b724062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd123cc0025a1efdaec76d08a6122d5cf') in 0.153013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Assets(ingame)/materials/portal/inside_portal.mat
+  artifactKey: Guid(3da510362e692432a828a4869cfc564c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/inside_portal.mat using Guid(3da510362e692432a828a4869cfc564c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede59e4e9759cb4ad856ef6cb36c06ca') in 0.018972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Assets(ingame)/materials/portal/gameres_gameres_PortalRocks_emissive.jpeg
+  artifactKey: Guid(06a709893c1be43eba145f1f10f45bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/gameres_gameres_PortalRocks_emissive.jpeg using Guid(06a709893c1be43eba145f1f10f45bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbac70a10cfc857e68cef2dd016781ce') in 0.015103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Assets(ingame)/materials/portal/portal.mat
+  artifactKey: Guid(55b329d8151594a08b9bc4de95037c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/portal.mat using Guid(55b329d8151594a08b9bc4de95037c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd938c330753c9b84d5822ccf40005384') in 0.015101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.591914 seconds.
+  path: Assets/Assets(ingame)/materials/portal/portal.mat
+  artifactKey: Guid(55b329d8151594a08b9bc4de95037c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/portal.mat using Guid(55b329d8151594a08b9bc4de95037c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b9574d6d269c3da0aabe1262df501b') in 0.019472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.665977 seconds.
+  path: Assets/Assets(ingame)/materials/portal/insideportal.mat
+  artifactKey: Guid(0917afb66f7e8424bab8da7f40a1c169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/insideportal.mat using Guid(0917afb66f7e8424bab8da7f40a1c169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9093e295aab0c19c33de913c48a774b4') in 0.010773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.696729 seconds.
+  path: Assets/Assets(ingame)/materials/background/DinV
+  artifactKey: Guid(23742f200142a4638b375a4ed1e02fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/background/DinV using Guid(23742f200142a4638b375a4ed1e02fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93d99c1e9acf4b24d04f321ed100c73') in 0.001400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.539693 seconds.
+  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background
+  artifactKey: Guid(cfbbfb20b2395ec48ba47f1f035266d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background using Guid(cfbbfb20b2395ec48ba47f1f035266d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ea7c177712ae3d6fae74d989c6de67') in 0.001164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.193921 seconds.
+  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites
+  artifactKey: Guid(3ec1885b01800f2418a75597e3cc12b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites using Guid(3ec1885b01800f2418a75597e3cc12b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb09a9870e5d566b13da4b159d0e5c9d') in 0.001880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.996245 seconds.
+  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/main background.mat
+  artifactKey: Guid(ff76cadd48d4d41a78b2b0091c251372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/main background.mat using Guid(ff76cadd48d4d41a78b2b0091c251372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46126c21c4464179fd7458f2386e1f16') in 0.020597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Stars-Big_1.png
+  artifactKey: Guid(c6944f9f15bd0ca4087bcdf033f0e162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Stars-Big_1.png using Guid(c6944f9f15bd0ca4087bcdf033f0e162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8a29f44ef1eb1c4c98bc0397626052') in 0.039495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Nebula Red.png
+  artifactKey: Guid(35313af049b4a2f42a0325330c51d74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Nebula Red.png using Guid(35313af049b4a2f42a0325330c51d74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a404e6333f29a6e42c2b9b26c77a55') in 0.039489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Stars Small_1.png
+  artifactKey: Guid(efe6ce32a6a4408489775c70e5d32f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Stars Small_1.png using Guid(efe6ce32a6a4408489775c70e5d32f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed4f6f52cc45cd8b0df41f56c1304d0') in 0.028234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.972933 seconds.
+  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/mainbg.mat
+  artifactKey: Guid(256aa53742b8445ea802542456153bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/mainbg.mat using Guid(256aa53742b8445ea802542456153bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8c68d468537a184a273a97d9619a90') in 0.036351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.863578 seconds.
+  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Materials
+  artifactKey: Guid(3ccc013f643f842f59d4623fca56a233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Materials using Guid(3ccc013f643f842f59d4623fca56a233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574c05e958d9026894db4ca4519abccf') in 0.002870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.125697 seconds.
+  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Materials/Stars Small_1.mat
+  artifactKey: Guid(026554190421445738193fe2387a40ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Materials/Stars Small_1.mat using Guid(026554190421445738193fe2387a40ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcaeafb1f75edc453400e7ca284f099') in 0.018490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.673977 seconds.
+  path: Assets/scripts/eleven
+  artifactKey: Guid(45d1c0948a85c4c28874dd1ea949d240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/eleven using Guid(45d1c0948a85c4c28874dd1ea949d240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2268fadf2b95a5fba3e3059296b65b82') in 0.001425 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001420 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-09-03 12:16:04.798 Unity[35348:3722231] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000012a7870 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.712 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3718ms)
+		BeginReloadAssembly (527ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (63ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (221ms)
+		EndReloadAssembly (3013ms)
+			LoadAssemblies (411ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (595ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (1620ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (363ms)
+				ProcessInitializeOnLoadAttributes (1128ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.8 MB.
+System memory in use after: 197.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2055.
+Total: 3.399375 ms (FindLiveObjects: 0.168042 ms CreateObjectMapping: 0.052208 ms MarkObjects: 3.079375 ms  DeleteObjects: 0.098208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 64.090438 seconds.
+  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/stranger-things-netflix-tv-series-fan-art-wallpaper-preview.jpeg
+  artifactKey: Guid(54d640a0c61984ffbb9733043e7a120f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/stranger-things-netflix-tv-series-fan-art-wallpaper-preview.jpeg using Guid(54d640a0c61984ffbb9733043e7a120f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58caba64e518a5a89949bef1480a9040') in 0.127195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.456225 seconds.
+  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/botoom.mat
+  artifactKey: Guid(5503554d874374891bfa3f28f0945269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/botoom.mat using Guid(5503554d874374891bfa3f28f0945269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fbb5abfe889eff1d06bbb037759d65') in 0.183338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.103161 seconds.
+  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/bottom.mat
+  artifactKey: Guid(5503554d874374891bfa3f28f0945269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/bottom.mat using Guid(5503554d874374891bfa3f28f0945269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58acc1c23eb56867c219ffbc26e37a7') in 0.023309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.171081 seconds.
+  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/bottom.mat
+  artifactKey: Guid(5503554d874374891bfa3f28f0945269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/bottom.mat using Guid(5503554d874374891bfa3f28f0945269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0ae7e81090722fe371e15b9af9c093') in 0.060464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/mainbg.mat
+  artifactKey: Guid(256aa53742b8445ea802542456153bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/mainbg.mat using Guid(256aa53742b8445ea802542456153bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdbc1b986f78d6e062137e617df2147') in 0.354735 seconds 

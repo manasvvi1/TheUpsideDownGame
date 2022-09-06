@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51946
+55146
 Successfully changed project path to: /Users/nandinipaarshar9/Desktop/TheUpsideDownGameRepo/TheUpsideDown
 /Users/nandinipaarshar9/Desktop/TheUpsideDownGameRepo/TheUpsideDown
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 84.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/nandinipaarshar9/Desktop/TheUpsideDownGameRepo/TheUpsideDown/Assets
 GfxDevice: creating device client; threaded=0
-2022-09-06 11:56:43.567 Unity[4797:38886] (null) preferred device: Apple M1 (high power)
-2022-09-06 11:56:43.567 Unity[4797:38886] Metal devices available: 1
-2022-09-06 11:56:43.567 Unity[4797:38886] 0: Apple M1 (high power)
-2022-09-06 11:56:43.567 Unity[4797:38886] Using device Apple M1 (high power)
+2022-09-06 22:13:42.345 Unity[22656:204357] (null) preferred device: Apple M1 (high power)
+2022-09-06 22:13:42.345 Unity[22656:204357] Metal devices available: 1
+2022-09-06 22:13:42.345 Unity[22656:204357] 0: Apple M1 (high power)
+2022-09-06 22:13:42.346 Unity[22656:204357] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56797
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000278 seconds.
+Registered in 0.000901 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 38.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.154 seconds
+- Completed reload, in  1.233 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1155ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (1233ms)
+		BeginReloadAssembly (111ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (954ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (183ms)
+		EndReloadAssembly (1003ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (181ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (463ms)
+			SetupLoadedEditorAssemblies (496ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (38ms)
-				BeforeProcessingInitializeOnLoad (29ms)
-				ProcessInitializeOnLoadAttributes (284ms)
-				ProcessInitializeOnLoadMethodAttributes (100ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (32ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000706 seconds.
+Registered in 0.001987 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 37.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.316 seconds
+- Completed reload, in  2.389 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2318ms)
-		BeginReloadAssembly (238ms)
+	ReloadAssembly (2391ms)
+		BeginReloadAssembly (237ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (30ms)
+			DisableScriptedObjects (29ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1993ms)
-			LoadAssemblies (174ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (2066ms)
+			LoadAssemblies (177ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (314ms)
-			ReleaseScriptCaches (1ms)
+			SetupTypeCache (319ms)
+			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (1185ms)
+			SetupLoadedEditorAssemblies (1246ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (38ms)
-				BeforeProcessingInitializeOnLoad (143ms)
-				ProcessInitializeOnLoadAttributes (941ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (990ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.009747 seconds.
+Validating Project structure ... 0.005280 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.017365 seconds.
+Upgrading shader files ...0.015854 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -125,20 +125,20 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
 Initializing Unity extensions:
-2022-09-06 11:56:48.209 Unity[4797:38886] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001165500 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-09-06 11:56:48.212 Unity[4797:38886] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001176370 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-09-06 22:13:47.790 Unity[22656:204357] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000007eb1e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-09-06 22:13:47.793 Unity[22656:204357] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000007f97a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1757 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 239.4 MB.
-System memory in use after: 238.7 MB.
+System memory in use before: 241.9 MB.
+System memory in use after: 241.2 MB.
 
 Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 2253.
-Total: 2.997125 ms (FindLiveObjects: 0.138792 ms CreateObjectMapping: 0.042250 ms MarkObjects: 2.366125 ms  DeleteObjects: 0.449250 ms)
+Total: 2.948000 ms (FindLiveObjects: 0.089958 ms CreateObjectMapping: 0.034708 ms MarkObjects: 2.486917 ms  DeleteObjects: 0.335583 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -152,18 +152,1167 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Assets(ingame)/materials/background/entry skybox/entry sky.mat
-  artifactKey: Guid(f1f80ce830b4b4bca9f36e8c6cdf096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/background/entry skybox/entry sky.mat using Guid(f1f80ce830b4b4bca9f36e8c6cdf096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79287281ba5ca88e43599ea8e7d752b6') in 0.320075 seconds 
+  path: Assets/Assets(ingame)/materials/abandonhouse.fbx
+  artifactKey: Guid(b7715d61f68614cc195663b7782a90fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/abandonhouse.fbx using Guid(b7715d61f68614cc195663b7782a90fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7776fe75039a15c9d98cdd9feb44e431') in 6.655224 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 486.370439 seconds.
-  path: Assets/Assets(ingame)/materials/background/Materials/wallpapersden.com_stranger-things-with-eddie-guitar-art_1920x1080.jpeg
-  artifactKey: Guid(e78404fc9d5c146c49395f2a4a72cf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/background/Materials/wallpapersden.com_stranger-things-with-eddie-guitar-art_1920x1080.jpeg using Guid(e78404fc9d5c146c49395f2a4a72cf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e094fef6038bb087496b3ca6263117') in 0.208242 seconds 
+  Time since last request: 11.611889 seconds.
+  path: Assets/Assets(ingame)/materials/abandoned house
+  artifactKey: Guid(bf5c15ff04fbc4d048ffb65cabb33231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/abandoned house using Guid(bf5c15ff04fbc4d048ffb65cabb33231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731e84abc5f525b84b3fdbca6636122b') in 0.001286 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 74.005399 seconds.
-  path: Assets/Assets(ingame)/materials/background/Materials/entry.mat
-  artifactKey: Guid(61057bb9f42484fcd851ca4e09723820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/background/Materials/entry.mat using Guid(61057bb9f42484fcd851ca4e09723820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d6794b030bf7d095401b2eca724761') in 0.031831 seconds 
+  Time since last request: 18.694720 seconds.
+  path: Assets/Assets(ingame)/materials/abandoned house/AbHouse_AmbientOcclusion.png
+  artifactKey: Guid(0c9a24b59f5a84ce59976699a264315d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/abandoned house/AbHouse_AmbientOcclusion.png using Guid(0c9a24b59f5a84ce59976699a264315d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea9e21e947dc48e2a9a15d192813008') in 0.610914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/Assets(ingame)/materials/abandoned house/AbHouse_Normal.png
+  artifactKey: Guid(ec2ac5f266e8d48c79595263ad57a365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/abandoned house/AbHouse_Normal.png using Guid(ec2ac5f266e8d48c79595263ad57a365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e23cf020841db9a629a7c1e107a19ca') in 0.010341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Assets(ingame)/materials/abandoned house/AbHouse_Roughness.png
+  artifactKey: Guid(bd0059a1c83e24cac9fe25fbe99f5e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/abandoned house/AbHouse_Roughness.png using Guid(bd0059a1c83e24cac9fe25fbe99f5e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3f19c26b0efa75be89d1d4b1e7e7cf') in 0.011694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Assets(ingame)/materials/abandoned house/AbHouse_Metallic.png
+  artifactKey: Guid(1f2538cd9a1bf46ad90c796a45b364f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/abandoned house/AbHouse_Metallic.png using Guid(1f2538cd9a1bf46ad90c796a45b364f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6796ae8eca2646d4b0d8076fd3102146') in 0.012892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Assets(ingame)/materials/abandoned house/AbHouse_Base_Color.png
+  artifactKey: Guid(cdb48df3c878a473ca282c2beb59aebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/abandoned house/AbHouse_Base_Color.png using Guid(cdb48df3c878a473ca282c2beb59aebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ddacb64b73a5f5a4eb080b601ce8ed1') in 0.009858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Assets(ingame)/materials/abandoned house/internal_ground_ao_texture.jpeg
+  artifactKey: Guid(a453714c950a44f948c3db7c007bd37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/abandoned house/internal_ground_ao_texture.jpeg using Guid(a453714c950a44f948c3db7c007bd37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6766217468cf4224e5bbe7057ceb848c') in 0.092293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.285574 seconds.
+  path: Assets/Assets(ingame)/materials/abandoned house/mat1.mat
+  artifactKey: Guid(547a473fac67a4925a1e1f0c20d3f559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/abandoned house/mat1.mat using Guid(547a473fac67a4925a1e1f0c20d3f559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8186685356d21d5c8d529bbc00e53693') in 0.103540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.791195 seconds.
+  path: Assets/Assets(ingame)/materials/abandoned house/mat2.mat
+  artifactKey: Guid(59d4832c667b04e50962c0ef8260dcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/abandoned house/mat2.mat using Guid(59d4832c667b04e50962c0ef8260dcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634ab6545d6fc89e343f9a35e04e3d98') in 0.016282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.027759 seconds.
+  path: Assets/Assets(ingame)/materials/abandoned house/mat3.mat
+  artifactKey: Guid(c4cf80765b5c841bba8bd26f609b27ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/abandoned house/mat3.mat using Guid(c4cf80765b5c841bba8bd26f609b27ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d409028d6c7ecdaef80f81586655095') in 0.015110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.905526 seconds.
+  path: Assets/Assets(ingame)/materials/abandoned house/mat4.mat
+  artifactKey: Guid(0275cfd1f9f16492e821ef87559f89e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/abandoned house/mat4.mat using Guid(0275cfd1f9f16492e821ef87559f89e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e2774906b095dec72468bf7bf6c77b') in 0.010323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 687.795449 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse
+  artifactKey: Guid(7431cd47ccbe442bba71755fc78354c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse using Guid(7431cd47ccbe442bba71755fc78354c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93720b93ad1bf437cc8748af71e4c18c') in 0.007846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.713597 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Models
+  artifactKey: Guid(a64b5987902a8d149bc6fcbccebbe964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Models using Guid(a64b5987902a8d149bc6fcbccebbe964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0323a3af4f1f821af03dbd32f3d161') in 0.004012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.350738 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Models/House
+  artifactKey: Guid(f11b34a02295fe645be72694a6037a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Models/House using Guid(f11b34a02295fe645be72694a6037a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6771860866247204e3167e711da84f7b') in 0.002037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.085422 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Models/House/swamphouse 2.fbx
+  artifactKey: Guid(22f4c99a3ca59f14a9c34501b9752391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Models/House/swamphouse 2.fbx using Guid(22f4c99a3ca59f14a9c34501b9752391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feefdfee9d97940d7d90324e5922b36e') in 0.352866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.640985 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets
+  artifactKey: Guid(38b9de065ffcc9a40a47681e87df6a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets using Guid(38b9de065ffcc9a40a47681e87df6a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40acfa83769f50d24e3d1bd8a9e82268') in 0.001762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.097144 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Bricks.mat
+  artifactKey: Guid(56150a2091eb60f4480f94c1d15b2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Bricks.mat using Guid(56150a2091eb60f4480f94c1d15b2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb459f0587bd36c6170fd6ace81ac411') in 0.495460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Soft_Wood.mat
+  artifactKey: Guid(28f75a6df23b67942bc20082ebce6955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Soft_Wood.mat using Guid(28f75a6df23b67942bc20082ebce6955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c64bafe575913dcf556d4cd713b5f6') in 0.260230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Bulb-on.mat
+  artifactKey: Guid(d9f467314ce6d564ca1ea76b8f63a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Bulb-on.mat using Guid(d9f467314ce6d564ca1ea76b8f63a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490be610511a9a00bcb23e14dcb3b020') in 0.121989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Wood_planks.mat
+  artifactKey: Guid(bc96f4e13b5d09547baf280f33357926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Wood_planks.mat using Guid(bc96f4e13b5d09547baf280f33357926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6903f339b5ad6aca0cd289679c273708') in 0.020729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Corrugate.mat
+  artifactKey: Guid(5e7d5f3c652456f4d864ff964f6a8783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Corrugate.mat using Guid(5e7d5f3c652456f4d864ff964f6a8783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea2e53e998c79ec253e72c504e38fca') in 0.019501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Switch.mat
+  artifactKey: Guid(81af3989b28f1c74487e89c25a11378e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Switch.mat using Guid(81af3989b28f1c74487e89c25a11378e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c53c1ee69e6a1032eb546d43421f81') in 0.010501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Push_glow.mat
+  artifactKey: Guid(1aa55182167c54f4bad759c87d7083ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Push_glow.mat using Guid(1aa55182167c54f4bad759c87d7083ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33088ef8252ad9bed0152bbe890a2477') in 0.121770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Button.mat
+  artifactKey: Guid(67f32a368730a484d89cfc44a6359fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Button.mat using Guid(67f32a368730a484d89cfc44a6359fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cd776b3a7eb24561c1893176efe4d1') in 0.010401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Wooden_Floor.mat
+  artifactKey: Guid(7128d02b3a000d14fb25f8605f889b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Wooden_Floor.mat using Guid(7128d02b3a000d14fb25f8605f889b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d951d2871c8ea4e7b486d8ebad4144') in 0.039746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Wire.mat
+  artifactKey: Guid(964cbb1fd587c334e82a205911d7a74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Wire.mat using Guid(964cbb1fd587c334e82a205911d7a74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b07508b7314644dd2e9b3cb3743bcb') in 0.010716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Bulb-off.mat
+  artifactKey: Guid(2b98517fe119ca647ba13b3e0e7175a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Models/House/Mets/Bulb-off.mat using Guid(2b98517fe119ca647ba13b3e0e7175a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f9df659df54e99c9b834c773a966ce') in 0.009731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.118894 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Prefabs
+  artifactKey: Guid(fd49791101b871641bb5ed609ce3b715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Prefabs using Guid(fd49791101b871641bb5ed609ce3b715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d26d403c80c254dc6f783593d9f017') in 0.001755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.104789 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Prefabs/Barrel 1.prefab
+  artifactKey: Guid(03f0fa8f9c151c046ad30e5b776dbeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Prefabs/Barrel 1.prefab using Guid(03f0fa8f9c151c046ad30e5b776dbeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd29f6cdd48914a80452e0643d16c44') in 0.190983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Prefabs/door.prefab
+  artifactKey: Guid(b615fec57735d9c4e812e9f1cc90b92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Prefabs/door.prefab using Guid(b615fec57735d9c4e812e9f1cc90b92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d98352ffc1d9691cb819a83e4a4ab5') in 0.016154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Prefabs/Barrel 2.prefab
+  artifactKey: Guid(94b47ef13475e574a991120bc2f3703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Prefabs/Barrel 2.prefab using Guid(94b47ef13475e574a991120bc2f3703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0208ba8a1a882049809457be9069f8') in 0.014555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Prefabs/Ladder.prefab
+  artifactKey: Guid(9ad4aa9ddaeb0d14cabed22a330afb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Prefabs/Ladder.prefab using Guid(9ad4aa9ddaeb0d14cabed22a330afb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d91dd69e9bd865623adad8ad642e57') in 0.013051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Prefabs/Stool.prefab
+  artifactKey: Guid(2722b6e3857d0aa4b8b7a5aac4b67dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Prefabs/Stool.prefab using Guid(2722b6e3857d0aa4b8b7a5aac4b67dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169111426b62a21478e5ff953daac7ee') in 0.020336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Prefabs/Table 2.prefab
+  artifactKey: Guid(d369aab3c2609f241b2f8b6aff4f01cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Prefabs/Table 2.prefab using Guid(d369aab3c2609f241b2f8b6aff4f01cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9867c7a9b4f675fe0b94f5ac64c5cd') in 0.017028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Prefabs/Radio_leftover.prefab
+  artifactKey: Guid(c071178be0f88fd4d997db9c9910b2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Prefabs/Radio_leftover.prefab using Guid(c071178be0f88fd4d997db9c9910b2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a738b954d993f6e9c94e0bb107fc2e') in 0.032437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Prefabs/House.prefab
+  artifactKey: Guid(b31fc469b564b8e4d84e9ddfe840121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Prefabs/House.prefab using Guid(b31fc469b564b8e4d84e9ddfe840121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e8e6f53695cafb5e96cb3d0518fdda') in 0.049062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1329.114732 seconds.
+  path: Assets/Assets(ingame)/characters/New Terrain.asset
+  artifactKey: Guid(b0b2b758c0704479aaeccb01f02ef384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/New Terrain.asset using Guid(b0b2b758c0704479aaeccb01f02ef384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98cf1438ac032792c9f6d3dfd3b382b') in 0.213112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.053220 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack
+  artifactKey: Guid(6f13f02a63eeb435cbb5634732b5d5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack using Guid(6f13f02a63eeb435cbb5634732b5d5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8e83e1c6c65f163f465029dd12a6a6') in 0.003750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.149149 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/BigHouse
+  artifactKey: Guid(a8c37f71c2ed0aa478c6b64c94265947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/BigHouse using Guid(a8c37f71c2ed0aa478c6b64c94265947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55428b00d3eb62512834999d696f538') in 0.002057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.112474 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/BigHouse/BigHouse.fbx
+  artifactKey: Guid(113d36f51d55c2c4a807a09ac76c1d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/BigHouse/BigHouse.fbx using Guid(113d36f51d55c2c4a807a09ac76c1d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9028fa052dca57fc8f2b2f3fa8b5ce52') in 0.831051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/BigHouse/BigHousePrefab.prefab
+  artifactKey: Guid(1e132733b84047940b6a9043814d6ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/BigHouse/BigHousePrefab.prefab using Guid(1e132733b84047940b6a9043814d6ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a4efa06a05080d4a6d1121d30bb644') in 0.027904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.003209 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/Fence
+  artifactKey: Guid(92c09fc380c8a604ab1fb5e52d9a9c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/Fence using Guid(92c09fc380c8a604ab1fb5e52d9a9c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4a45505287259a2e2e10e6dfdd032f') in 0.001375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078037 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/Fence/Fence.fbx
+  artifactKey: Guid(37804f44fb6382743bfc0c7778484693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/Fence/Fence.fbx using Guid(37804f44fb6382743bfc0c7778484693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4439bab295fcb8af47500060d7f5d04') in 0.058295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/Fence/FencePrefab.prefab
+  artifactKey: Guid(2394d7d557201f048b00c84246231eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/Fence/FencePrefab.prefab using Guid(2394d7d557201f048b00c84246231eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7437b50a91c7a0d784ad3dcecb8d948') in 0.017358 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001301 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-09-06 23:15:34.208 Unity[22656:204357] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000007e50a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.536 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2539ms)
+		BeginReloadAssembly (309ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (33ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (2138ms)
+			LoadAssemblies (226ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (230ms)
+				ProcessInitializeOnLoadAttributes (1047ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 264.1 MB.
+System memory in use after: 264.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2306.
+Total: 2.273208 ms (FindLiveObjects: 0.090542 ms CreateObjectMapping: 0.034666 ms MarkObjects: 1.975417 ms  DeleteObjects: 0.171666 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1874.568574 seconds.
+  path: Assets/Assets(ingame)/characters/New Terrain.asset
+  artifactKey: Guid(b0b2b758c0704479aaeccb01f02ef384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/New Terrain.asset using Guid(b0b2b758c0704479aaeccb01f02ef384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bdc492dadff20bf8b7c0dde67d5d08') in 0.168320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.797416 seconds.
+  path: Assets/Assets(ingame)/characters/MK2
+  artifactKey: Guid(d1aeb65fc16804f3abb6df0fb6750245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/MK2 using Guid(d1aeb65fc16804f3abb6df0fb6750245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90661a983ff0f9ff0048f48c65f814f') in 0.001897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.421417 seconds.
+  path: Assets/Assets(ingame)/characters/MK2/Material
+  artifactKey: Guid(dcfffa08c37d31f43a878d186d975daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/MK2/Material using Guid(dcfffa08c37d31f43a878d186d975daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e586e5656c3fd33a334fad90ce93dd6') in 0.002291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.122141 seconds.
+  path: Assets/Assets(ingame)/characters/MK2/Material/MK2.mat
+  artifactKey: Guid(2bab2cecec377364ba3f4ef5058859ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/MK2/Material/MK2.mat using Guid(2bab2cecec377364ba3f4ef5058859ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67316cc4e32ee0fdee25a2dfa58deb9a') in 0.395399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.131520 seconds.
+  path: Assets/Assets(ingame)/characters/MK2/Model
+  artifactKey: Guid(dcc6bdc441e79bd49b2f08ad7ff9f3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/MK2/Model using Guid(dcc6bdc441e79bd49b2f08ad7ff9f3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933acd82a1a1dc98306d6068885ed67f') in 0.001780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082933 seconds.
+  path: Assets/Assets(ingame)/characters/MK2/Model/MK2.fbx
+  artifactKey: Guid(96f59debe1287a74a91fcf9cae75235e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/MK2/Model/MK2.fbx using Guid(96f59debe1287a74a91fcf9cae75235e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ab0c6aa2fd1279186189b20820caa3') in 0.245668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.989683 seconds.
+  path: Assets/Assets(ingame)/characters/MK2/Scene
+  artifactKey: Guid(342e4142fa87d2c4898946acf2238b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/MK2/Scene using Guid(342e4142fa87d2c4898946acf2238b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c241e10bb6c7268dfd73375bf224105b') in 0.001700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.062293 seconds.
+  path: Assets/Assets(ingame)/characters/MK2/Textures
+  artifactKey: Guid(73e1ed104c7a79543bde4f21b620bbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/MK2/Textures using Guid(73e1ed104c7a79543bde4f21b620bbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665b233172ea850543fd3c91725ed69c') in 0.001769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.098696 seconds.
+  path: Assets/Assets(ingame)/characters/MK2/Textures/MK2_AO.png
+  artifactKey: Guid(dd9d47676e0498948a5fed7a41395db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/MK2/Textures/MK2_AO.png using Guid(dd9d47676e0498948a5fed7a41395db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7499d82e466a92469c1c7d7b2bd93da4') in 0.055926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Assets(ingame)/characters/MK2/Textures/MK2_Metallic.png
+  artifactKey: Guid(f24336db450a89d45b7c4c54a5f82174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/MK2/Textures/MK2_Metallic.png using Guid(f24336db450a89d45b7c4c54a5f82174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e722cab5bfed279b441faa480d5ebc') in 0.019491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Assets(ingame)/characters/MK2/Textures/MK2_Roughness.png
+  artifactKey: Guid(36c58e3ce422f66428540ad3ca4b7c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/MK2/Textures/MK2_Roughness.png using Guid(36c58e3ce422f66428540ad3ca4b7c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8dcf96f2972ae459a39cfea170e4d8') in 0.020421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Assets(ingame)/characters/MK2/Textures/MK2_Base color.png
+  artifactKey: Guid(1f0cff02c39d9094385984b45bb29a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/MK2/Textures/MK2_Base color.png using Guid(1f0cff02c39d9094385984b45bb29a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144e55aca2a572a0ce6ec211633af232') in 0.018656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Assets(ingame)/characters/MK2/Textures/MK2_Normal.png
+  artifactKey: Guid(f25a6589722d5114cb9bb464656d9e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/MK2/Textures/MK2_Normal.png using Guid(f25a6589722d5114cb9bb464656d9e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce0f520678f06dbb1b2d28765be8497') in 0.053875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 576.110342 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/BigHouse/BigHouse.fbm
+  artifactKey: Guid(5d762dae249424b69b2046c0550814b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/BigHouse/BigHouse.fbm using Guid(5d762dae249424b69b2046c0550814b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531e666c1a776ccf2321e9f23fdfb3ea') in 0.002967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.462640 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse
+  artifactKey: Guid(0cbd62aadcb665a4785664fe62478646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse using Guid(0cbd62aadcb665a4785664fe62478646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9ca507504b7015f941c20d306fd2d5') in 0.002661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.099247 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/OldHouse.fbx
+  artifactKey: Guid(c70032afc7e2f214c8b20d1e445fb365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/OldHouse.fbx using Guid(c70032afc7e2f214c8b20d1e445fb365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5a9e513e93cea5c8e7842dc57ee66b') in 0.594887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/VhRoofBeamBump.png
+  artifactKey: Guid(1f2ebf25d09b1b24ca0340d76fc6c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/VhRoofBeamBump.png using Guid(1f2ebf25d09b1b24ca0340d76fc6c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c63f7cd5a8435c4b15c4f4c55a0c27') in 0.011945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHFloorbump.png
+  artifactKey: Guid(20144227dc3d3084f855ee7bbb3e1cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHFloorbump.png using Guid(20144227dc3d3084f855ee7bbb3e1cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804cee58b0990ea70350a6ea871ff0e3') in 0.007292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHFrameWoodReflection.png
+  artifactKey: Guid(b871b2c92bb308b4899d40f7fdc11da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHFrameWoodReflection.png using Guid(b871b2c92bb308b4899d40f7fdc11da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a6e110bdc7cd6cff1ef3d41f806ddd') in 0.009421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHWallsWood.png
+  artifactKey: Guid(01538a64a4b1e9c47baacae8db4399ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHWallsWood.png using Guid(01538a64a4b1e9c47baacae8db4399ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caee0e2023b49dae9e4670b96d90d0a4') in 0.008575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/VhRoofBeam.png
+  artifactKey: Guid(96b5269f1b04f0d46b27d83b3c5c9e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/VhRoofBeam.png using Guid(96b5269f1b04f0d46b27d83b3c5c9e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd20910cd6bc43715753ad8a1fd26af2') in 0.009247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHRoofBump.png
+  artifactKey: Guid(cf2650c5837f0e34dbd3c79ddd1e5202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHRoofBump.png using Guid(cf2650c5837f0e34dbd3c79ddd1e5202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af5b5dd656c8ae7785f2123125a1429') in 0.008047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHWallsWoodReflection.png
+  artifactKey: Guid(628d677ce8e1e564fa24221710488702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHWallsWoodReflection.png using Guid(628d677ce8e1e564fa24221710488702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9047ba6e5a00015725e4b9e1e34d1619') in 0.011827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHFloorReflection.png
+  artifactKey: Guid(69496a935f64b8d4e9af45080f1846cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHFloorReflection.png using Guid(69496a935f64b8d4e9af45080f1846cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d870af7650676c70aba08099e8866ee') in 0.012123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHDecorationWoodBump.png
+  artifactKey: Guid(b09ddd850b05c71439414e3151feccb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHDecorationWoodBump.png using Guid(b09ddd850b05c71439414e3151feccb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a635ede689e566b82e4992c86b9e5e39') in 0.009349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHDecorationWood.png
+  artifactKey: Guid(f1f3a21fbeb4283488049ea216fcaad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHDecorationWood.png using Guid(f1f3a21fbeb4283488049ea216fcaad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6899db85c0fb80d53aa1dcf5888354db') in 0.007178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHFrameWoodBump.png
+  artifactKey: Guid(b32f987e367a5864e8b76d58821e2504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHFrameWoodBump.png using Guid(b32f987e367a5864e8b76d58821e2504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37e91a9e0143d505ca4d5452c85cdd7') in 0.008951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHRoofReflection.png
+  artifactKey: Guid(e5fe530986054d94fbb5d408360d7f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHRoofReflection.png using Guid(e5fe530986054d94fbb5d408360d7f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e4bf26be540a2d8c6d73893fc54ff7') in 0.011763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHWallsWoodBump.png
+  artifactKey: Guid(27cdd57b05f42c4429740b17d6318ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHWallsWoodBump.png using Guid(27cdd57b05f42c4429740b17d6318ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06afe90a92abb86dc1bf9dae19c61b4f') in 0.008065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/OldHousePrefab.prefab
+  artifactKey: Guid(2082f115d38a4a94fabde959cb0bfd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/OldHousePrefab.prefab using Guid(2082f115d38a4a94fabde959cb0bfd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1614ed75540a1121136381473cc9ce57') in 0.030898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHDecorationWoodReflection.png
+  artifactKey: Guid(8e9e9cab61928be48bc45b48888f7218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHDecorationWoodReflection.png using Guid(8e9e9cab61928be48bc45b48888f7218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1931fc6ccd3448e60c4c9192e646d05') in 0.008719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000724 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/VhRoofBeamReflection.png
+  artifactKey: Guid(ab62098b6e725c14b9c87024566b2039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/VhRoofBeamReflection.png using Guid(ab62098b6e725c14b9c87024566b2039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cff77b71f7b07757c77f4f4c62a9706') in 0.007626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHRoof.png
+  artifactKey: Guid(94a894a4fbe572e48a9b42651e781fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHRoof.png using Guid(94a894a4fbe572e48a9b42651e781fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1c96bebe16dbc2bce883918171b967') in 0.012770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHFrameWood.png
+  artifactKey: Guid(d5eb7e4e06f5ca34597ad309febb9151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHFrameWood.png using Guid(d5eb7e4e06f5ca34597ad309febb9151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97417cca9dc6750ddc5f4d3a64e334fa') in 0.011843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHFloor.png
+  artifactKey: Guid(7c43aecd6c9b73e46bf167c2cbbc8ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/VHFloor.png using Guid(7c43aecd6c9b73e46bf167c2cbbc8ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ab3a30d24bdaeb6859bb7b35e247fd') in 0.010053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 670.680243 seconds.
+  path: Assets/Assets(ingame)/characters/WoodCrate
+  artifactKey: Guid(00aad5665697244088dc68b9dd91f6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/WoodCrate using Guid(00aad5665697244088dc68b9dd91f6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0f92770491432f6ddf80154f3302b4') in 0.019113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.419332 seconds.
+  path: Assets/Assets(ingame)/characters/WoodCrate/WoodCrate.dae
+  artifactKey: Guid(b0a9c34f8ad2c4c49988cbeb282fceec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/WoodCrate/WoodCrate.dae using Guid(b0a9c34f8ad2c4c49988cbeb282fceec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a37241e8b1d0bc48ebe58e09ab62976') in 1.658958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2357.468342 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/Well
+  artifactKey: Guid(c337deca5ef7cde45a3730bc2584484e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/Well using Guid(c337deca5ef7cde45a3730bc2584484e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd19d8f122a992bc874fad5de844cf4c') in 0.008328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045532 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/Well/Metal.png
+  artifactKey: Guid(a259855e40a1f7a4abc5bda809ced542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/Well/Metal.png using Guid(a259855e40a1f7a4abc5bda809ced542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0969bab5cc8f36049dd4ec04124cba6') in 0.079000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/Well/Well.fbx
+  artifactKey: Guid(21cf86b1834db25468c609ce2465187f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/Well/Well.fbx using Guid(21cf86b1834db25468c609ce2465187f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8cc0d94203979b449269c28ee2a3c0') in 0.737313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/Well/Rope.png
+  artifactKey: Guid(0b087a51403f18b419b1199af1720f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/Well/Rope.png using Guid(0b087a51403f18b419b1199af1720f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f221de917191d29ee5d627c31670bf3') in 0.009710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/Well/Well.prefab
+  artifactKey: Guid(22780bb3d42e70349b5857c462d56bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/Well/Well.prefab using Guid(22780bb3d42e70349b5857c462d56bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e9c9d944cc37f4135d3ca1c63a76d7') in 0.200840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/Well/WellStick.png
+  artifactKey: Guid(956d97028264af84f9a53ca6951cf2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/Well/WellStick.png using Guid(956d97028264af84f9a53ca6951cf2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299a5b61f95ad669c9e1efd03292d651') in 0.008965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.807911 seconds.
+  path: Assets/Assets(ingame)/characters/VillagePack/OldHouse/OldHouse.fbm
+  artifactKey: Guid(73202830763c44a57b619cfa8d83bbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/VillagePack/OldHouse/OldHouse.fbm using Guid(73202830763c44a57b619cfa8d83bbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de12c9cef93a91861b2405028fb7ee2') in 0.002505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 104.017370 seconds.
+  path: Assets/Assets(ingame)/characters/WoodBarrel
+  artifactKey: Guid(2eab8e3b9bd2049089a710abfeb68c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/WoodBarrel using Guid(2eab8e3b9bd2049089a710abfeb68c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315e8e27705c28f1d59808aaabd5d1f2') in 0.004556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.415147 seconds.
+  path: Assets/Assets(ingame)/characters/WoodBarrel/WoodBarrel.dae
+  artifactKey: Guid(8eb45922989ef4758add4dfda9b3d6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/WoodBarrel/WoodBarrel.dae using Guid(8eb45922989ef4758add4dfda9b3d6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387f4d85346a25a34a173a618dbab841') in 0.381248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 449.246845 seconds.
+  path: Assets/WoodTest02.fbx
+  artifactKey: Guid(60958c946bdf9458db62ab4ff3dd1509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodTest02.fbx using Guid(60958c946bdf9458db62ab4ff3dd1509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea41a79a688efbb8cb0c60e55c0b5480') in 0.225678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.556731 seconds.
+  path: Assets/Assets(ingame)/characters/will's castle
+  artifactKey: Guid(2d2c3d37907c149e99c0a18afaba949a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/will's castle using Guid(2d2c3d37907c149e99c0a18afaba949a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8265d3b56993398e6fb6cfdf1620b22') in 0.002817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 153.930729 seconds.
+  path: Assets/Assets(ingame)/materials/will's house
+  artifactKey: Guid(07390b875e9af4fbda34836fc94d0950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house using Guid(07390b875e9af4fbda34836fc94d0950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d74f3b1364dde8af497b15c846976b8') in 0.002679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.629116 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Decoration_Mixed_AO.png
+  artifactKey: Guid(f12f4fee4f4304d188f1c449564e71f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Decoration_Mixed_AO.png using Guid(f12f4fee4f4304d188f1c449564e71f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b68d32db435eb7d7289889a433af82e') in 0.029046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/flag_normal.png
+  artifactKey: Guid(c1f8d3bd7c96c4208a22c8e1129b30f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/flag_normal.png using Guid(c1f8d3bd7c96c4208a22c8e1129b30f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093c723b2f6885e71382cd84161cb99f') in 0.021296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002534 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Futon_albedo.jpg
+  artifactKey: Guid(f2f5dcb64442b4c31b56507d09d17e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Futon_albedo.jpg using Guid(f2f5dcb64442b4c31b56507d09d17e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e567c1915ea8f15d541e29fa1e219476') in 0.605375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/WoodBase03_albedo.jpg
+  artifactKey: Guid(390646ec82b0d4a3ebdd5f8cf1818341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/WoodBase03_albedo.jpg using Guid(390646ec82b0d4a3ebdd5f8cf1818341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85cef92ecbfa075b5eb9ca5c693ef23') in 0.009116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/WoodBase03_roughness.jpg
+  artifactKey: Guid(1d3d6c3c71e314809a5ed3f3bdbdd393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/WoodBase03_roughness.jpg using Guid(1d3d6c3c71e314809a5ed3f3bdbdd393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93117bb46e349d4b7b16dc7ba490454') in 0.010413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Material.001_AO.jpg
+  artifactKey: Guid(81910d1450dbf42eeae1d35d38d8393e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Material.001_AO.jpg using Guid(81910d1450dbf42eeae1d35d38d8393e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba15653761fd097fc61d8bdc7906091e') in 0.009473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/WoodBase02_AO.jpg
+  artifactKey: Guid(3b548e1e265894d8fb8dede8584fc917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/WoodBase02_AO.jpg using Guid(3b548e1e265894d8fb8dede8584fc917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2113d4c8e172f0a44abea1a44b8f89') in 0.011531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/flag_ao.png
+  artifactKey: Guid(9b590d7fa9c384cc299a69a7bacc4a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/flag_ao.png using Guid(9b590d7fa9c384cc299a69a7bacc4a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8069e3d51996815f97cafbf5bbd7e866') in 0.008371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Pallet_1_AO.jpg
+  artifactKey: Guid(2776163b2197f4caea6f9a1de2621234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Pallet_1_AO.jpg using Guid(2776163b2197f4caea6f9a1de2621234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b273d43b67f8a4b5f4e6b557dab941') in 0.007979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/WoodBase03_normal.png
+  artifactKey: Guid(d56f77d7a3c33404aaefa4aa862ddcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/WoodBase03_normal.png using Guid(d56f77d7a3c33404aaefa4aa862ddcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381067e9128093dedfeb71072ea9ab07') in 0.010579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/WoodTest02_Ground_MetallicSmoothness.png
+  artifactKey: Guid(cebed462611964e38b3c703365bd45e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/WoodTest02_Ground_MetallicSmoothness.png using Guid(cebed462611964e38b3c703365bd45e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6f7751e3c20f107838ad397d950113') in 0.012315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Pallet_1_albedo.jpg
+  artifactKey: Guid(211adacd46b314e898fdbea75c97334a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Pallet_1_albedo.jpg using Guid(211adacd46b314e898fdbea75c97334a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75cea82dab73e5dce9c1694ebcb17a86') in 0.009225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Decoration_Normal_OpenGL.png
+  artifactKey: Guid(4e6b0db5be195423a89fb3c731fc8d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Decoration_Normal_OpenGL.png using Guid(4e6b0db5be195423a89fb3c731fc8d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5981df11e18440d7000465f6db3e22d6') in 0.007693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Pallet_1_roughness.jpg
+  artifactKey: Guid(04ca16e7a7b6b4c39883024f6f8144a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Pallet_1_roughness.jpg using Guid(04ca16e7a7b6b4c39883024f6f8144a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eea75652fc81c5ec26b8374690abed6') in 0.007939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Material.001_metallic.jpg
+  artifactKey: Guid(f6427da9b8ee64f6ca5504b050770b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Material.001_metallic.jpg using Guid(f6427da9b8ee64f6ca5504b050770b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1834e8a96177a70beebe258dbf3ceb') in 0.011117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/flag_diffuseOriginal.png
+  artifactKey: Guid(13f2ea1af55254699a3e5fdbb03eef3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/flag_diffuseOriginal.png using Guid(13f2ea1af55254699a3e5fdbb03eef3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfc527b33fbab0c43879ea2c1ca25a1') in 0.006253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Material.001_roughness.jpg
+  artifactKey: Guid(e782330b1eff34aeba8eef3f1a1b0c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Material.001_roughness.jpg using Guid(e782330b1eff34aeba8eef3f1a1b0c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9d188a54156203883d0edbd71e5ba1') in 0.008454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Futon_roughness.jpg
+  artifactKey: Guid(e422a6ca72d0c4a018a2bdcb0f464c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Futon_roughness.jpg using Guid(e422a6ca72d0c4a018a2bdcb0f464c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6931f79c2947aba2887dba53b1d522') in 0.009228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/WoodTest02_Ground_AlbedoTransparency.png
+  artifactKey: Guid(1d109429aa5014d78b38ba995d30734f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/WoodTest02_Ground_AlbedoTransparency.png using Guid(1d109429aa5014d78b38ba995d30734f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a180bfe589680ecfc441857d12b29d85') in 0.009741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/flag_metallic.png
+  artifactKey: Guid(97dd81bb6716d4dc1af2661f547f0a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/flag_metallic.png using Guid(97dd81bb6716d4dc1af2661f547f0a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd37d1cd37216aa0c0fb81212dc4afc') in 0.005854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/WoodTest02_Ground_Normal.png
+  artifactKey: Guid(aa22c68d3ed6447899d0a078ef639229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/WoodTest02_Ground_Normal.png using Guid(aa22c68d3ed6447899d0a078ef639229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d22017e0656de6443509c94d303eea') in 0.008483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/internal_ground_ao_texture.jpeg
+  artifactKey: Guid(a6e423aa5ad08477cbaee103afe44afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/internal_ground_ao_texture.jpeg using Guid(a6e423aa5ad08477cbaee103afe44afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e60260384df6e60768728e0d8bd50ab') in 0.019481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Material.001_normal.png
+  artifactKey: Guid(44573f4c3170445e388ae7266d57f641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Material.001_normal.png using Guid(44573f4c3170445e388ae7266d57f641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6b9eb6d8cbace26f8660cbda89ee92') in 0.008389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Pallet_1_normal.png
+  artifactKey: Guid(e79c824de67064fb5ac2898d5d2ce18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Pallet_1_normal.png using Guid(e79c824de67064fb5ac2898d5d2ce18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa68df5836e165b890dd1bfd84f7058') in 0.009343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/WoodBase03_AO.jpg
+  artifactKey: Guid(1d372d5b8064a472796696f611136794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/WoodBase03_AO.jpg using Guid(1d372d5b8064a472796696f611136794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a490b15a0c200394ae8b1085906c15ef') in 0.007886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Decoration_Roughness.png
+  artifactKey: Guid(b9a750f26f358418ea7cde736a2b25dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Decoration_Roughness.png using Guid(b9a750f26f358418ea7cde736a2b25dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a52262ceb9952a0c993aba12028a49') in 0.008143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Material.001_albedo.jpg
+  artifactKey: Guid(98574a6ef109d4b499ecd027a99ce389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Material.001_albedo.jpg using Guid(98574a6ef109d4b499ecd027a99ce389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddc72bf8ceec3db8c34d676af8f4218') in 0.008264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/WoodBase02_normal.png
+  artifactKey: Guid(37d334beab6e046daa9d060d5d031d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/WoodBase02_normal.png using Guid(37d334beab6e046daa9d060d5d031d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327f944321fd37b867880cbf477af870') in 0.008293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/WoodBase02_albedo.jpg
+  artifactKey: Guid(c516d8e08596e4dd4a246c8c1f99c071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/WoodBase02_albedo.jpg using Guid(c516d8e08596e4dd4a246c8c1f99c071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790b86bc86012911f8a0af7235d0cf2b') in 0.008482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.383682 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Asset_albedo.jpg
+  artifactKey: Guid(2685f9895f43d4855abd98c1bdbf63ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Asset_albedo.jpg using Guid(2685f9895f43d4855abd98c1bdbf63ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88cf7eaa9125876ba3246a08866e0bb') in 0.017935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Blanket_normal.png
+  artifactKey: Guid(e6f4b4b0d0aaf4d01913d854404f9f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Blanket_normal.png using Guid(e6f4b4b0d0aaf4d01913d854404f9f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664de0bff29f6a83eeb5d0cb81482c26') in 0.014149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Asset_metallic.jpg
+  artifactKey: Guid(a121521e95f664ab08995e295ad83ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Asset_metallic.jpg using Guid(a121521e95f664ab08995e295ad83ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be81ff92db3397e1bc3edb9972975d3f') in 0.010656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Blanket_roughness.jpg
+  artifactKey: Guid(0b6d2d8209bd148579584c463ffea43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Blanket_roughness.jpg using Guid(0b6d2d8209bd148579584c463ffea43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4784cb8dae4b4f5233117dd912a1de') in 0.012284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Asset_normal.png
+  artifactKey: Guid(5ad3dd5b31e3840a0a48893ffc2dcef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Asset_normal.png using Guid(5ad3dd5b31e3840a0a48893ffc2dcef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de438d0ede977c3620292b8e2f0de8ce') in 0.016361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Asset_roughness.jpg
+  artifactKey: Guid(80f441c02701c438a9d4e9a6cdf261e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Asset_roughness.jpg using Guid(80f441c02701c438a9d4e9a6cdf261e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d49b0f49982a28a7e9db6f64abb8f37') in 0.009499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Asset_AO.jpg
+  artifactKey: Guid(583fe2a60c0d348e483f10703c739039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Asset_AO.jpg using Guid(583fe2a60c0d348e483f10703c739039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c948be3b837dbc005068b4d332458474') in 0.009408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Asset_opacity.jpg
+  artifactKey: Guid(fa5b4feea4a164afa8ebc68a9804877d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Asset_opacity.jpg using Guid(fa5b4feea4a164afa8ebc68a9804877d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340bf459edc0d8308f655db549a12382') in 0.008845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Blanket_albedo.jpg
+  artifactKey: Guid(1b447864731b84a2aa2fdb2e3fc43ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Blanket_albedo.jpg using Guid(1b447864731b84a2aa2fdb2e3fc43ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d7bad2d0f252b0d595ef4de7ef5e15') in 0.009543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Blanket_AO.jpg
+  artifactKey: Guid(3b18c83cd7b3c48d8a8e84dad051d015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Blanket_AO.jpg using Guid(3b18c83cd7b3c48d8a8e84dad051d015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356a5f6e9c684e652efeecbe76c9be2d') in 0.009020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/Decoration_Base_Color.png
+  artifactKey: Guid(1652042d370114686982557f835d3d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/Decoration_Base_Color.png using Guid(1652042d370114686982557f835d3d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39585968e8feab7601fe740fee32bec9') in 0.009692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.510266 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/house outer.mat
+  artifactKey: Guid(95d4e09f3d92b43aea52e743f73429a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/house outer.mat using Guid(95d4e09f3d92b43aea52e743f73429a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf406766e2f5be90e1ced99ab1a8fb1') in 0.018364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.585137 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/flag.mat
+  artifactKey: Guid(6e58c706aae1e41238962dd7ffb83a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/flag.mat using Guid(6e58c706aae1e41238962dd7ffb83a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74926aef45b4e28527132a64526140c') in 0.027821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 158.642076 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/board.mat
+  artifactKey: Guid(2eca0a3f961874e5aaec2af9150a5f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/board.mat using Guid(2eca0a3f961874e5aaec2af9150a5f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f38cc60a86d99c57966ee672a16f539') in 0.044431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.002990 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/blanket.mat
+  artifactKey: Guid(97f0be2a69ca540bfb5b6b8435033d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/blanket.mat using Guid(97f0be2a69ca540bfb5b6b8435033d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbe11600937e72b84e027fb3d0610f5') in 0.032357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.526556 seconds.
+  path: Assets/Assets(ingame)/materials/will's house/additional.mat
+  artifactKey: Guid(f9ad6c223fdd447a582fdca533e839d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/will's house/additional.mat using Guid(f9ad6c223fdd447a582fdca533e839d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7543a13583202f5b10ee81ccff9201') in 0.041887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 342.963715 seconds.
+  path: Assets/Assets(ingame)/characters/upsidedownportal
+  artifactKey: Guid(f26c17c2a73a34ffcb4c8971068dd6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/upsidedownportal using Guid(f26c17c2a73a34ffcb4c8971068dd6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a95da4fdfb8be56495c21f27270a0c') in 0.002966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.021297 seconds.
+  path: Assets/Assets(ingame)/characters/upsidedownportal/Portal_07.fbx
+  artifactKey: Guid(d0f6d24b22145461d935dea221e6e112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/upsidedownportal/Portal_07.fbx using Guid(d0f6d24b22145461d935dea221e6e112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fa1a76c361f47fd40ce6315950a8a8') in 0.349577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.080209 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal
+  artifactKey: Guid(d4388f156fdcf41c1b2ce91ff8636e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal using Guid(d4388f156fdcf41c1b2ce91ff8636e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbdcb81415d37bd0dcfc117c892411e') in 0.002145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.406367 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/Branches_Diff.png
+  artifactKey: Guid(47609944a25ce48ba8495866c4c95d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/Branches_Diff.png using Guid(47609944a25ce48ba8495866c4c95d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bd1591d61b6ef93d7a1bf44020a428') in 0.046043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000622 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/Drooling_alphamask_1.png
+  artifactKey: Guid(ebe03f352c4cd4649bf0a718b14ca0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/Drooling_alphamask_1.png using Guid(ebe03f352c4cd4649bf0a718b14ca0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5234810550cff76ab0c78703854970ed') in 0.026221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/Window_diff.png
+  artifactKey: Guid(798c533c4494745aca8d8d5bf2da64c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/Window_diff.png using Guid(798c533c4494745aca8d8d5bf2da64c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1465d7f741be1acdc7fadbbbb4f36f9a') in 0.013187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/Drooling_Diff.png
+  artifactKey: Guid(39bbd1210c6024d7297da4e5b7c841c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/Drooling_Diff.png using Guid(39bbd1210c6024d7297da4e5b7c841c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9f154160ddd6c73bc0788de47d1994') in 0.025150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/Branches_normal.png
+  artifactKey: Guid(5a60fb2981cb44917b2116d04e562abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/Branches_normal.png using Guid(5a60fb2981cb44917b2116d04e562abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf5771430dd8b8908558e239a80cfce') in 0.010529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/Drooling_ao.png
+  artifactKey: Guid(fbcce7834d14645109f45ac4152ab913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/Drooling_ao.png using Guid(fbcce7834d14645109f45ac4152ab913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b9222394efe90473ffdabcc912095d') in 0.010188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/Drooling_normal_.png
+  artifactKey: Guid(00185b66827af41589756183b7e1ea6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/Drooling_normal_.png using Guid(00185b66827af41589756183b7e1ea6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce788c58ed5b017f16c546cb82f7e272') in 0.007712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.816423 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/New Folder
+  artifactKey: Guid(339c7f229dbd1453fbd3769e1ef5aeea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/New Folder using Guid(339c7f229dbd1453fbd3769e1ef5aeea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988c5faa214cc4bc44753d2e1e9f6e39') in 0.002874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.519014 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/mat1.mat
+  artifactKey: Guid(8f0453f0b74da4880a5ca4e71d4abd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/mat1.mat using Guid(8f0453f0b74da4880a5ca4e71d4abd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5423873d0035ce22a2d8dde83f56e2c') in 0.018610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.362353 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/mat2.mat
+  artifactKey: Guid(ab213797723db478ba105757f1ecd6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/mat2.mat using Guid(ab213797723db478ba105757f1ecd6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ebee11a621bf50a635d25b5b642a86') in 0.013398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 129.656158 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/mat3.mat
+  artifactKey: Guid(a2d4a3e961e3f4475ac6340e6e1f4d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/mat3.mat using Guid(a2d4a3e961e3f4475ac6340e6e1f4d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22057d9aa920cd0d58038c3eacb64ffb') in 0.045596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2047.217023 seconds.
+  path: Assets/Assets(ingame)/characters/SwampHouse/Models/House/mind_flayer-stranger_things_2.fbx
+  artifactKey: Guid(dc6a681287e0d49c0a108c4d97f2fbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/SwampHouse/Models/House/mind_flayer-stranger_things_2.fbx using Guid(dc6a681287e0d49c0a108c4d97f2fbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8c37e4631ba2fcc670f46350e261b9') in 0.192210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 239.022839 seconds.
+  path: Assets/Assets(ingame)/materials/demigorgon/giant.mat
+  artifactKey: Guid(115f2aacc84b64b03a0a838c2a922184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/demigorgon/giant.mat using Guid(115f2aacc84b64b03a0a838c2a922184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe690859f03665a3945362242588eada') in 0.031546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.324842 seconds.
+  path: Assets/Assets(ingame)/materials/demigorgon/Merged_PM3D_Demo1_Merged_PM3D_Demo10_BaseC.png
+  artifactKey: Guid(147e8d4a02cd84927affc5c929ee9d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/demigorgon/Merged_PM3D_Demo1_Merged_PM3D_Demo10_BaseC.png using Guid(147e8d4a02cd84927affc5c929ee9d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f29e691635fab5cbc0bd0d58ea7780d') in 0.036980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Assets(ingame)/materials/demigorgon/Merged_PM3D_Demo1_Merged_PM3D_Demo10_Norma.png
+  artifactKey: Guid(7de380588a2234930b2e2197a58c67e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/demigorgon/Merged_PM3D_Demo1_Merged_PM3D_Demo10_Norma.png using Guid(7de380588a2234930b2e2197a58c67e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a868c201d533a6280b48c25a24247c33') in 0.011815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Assets(ingame)/materials/demigorgon/Merged_PM3D_Demo1_Merged_PM3D_Demo10_Rough.png
+  artifactKey: Guid(40f7adf07e6cd4efda3423a6e95da260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/demigorgon/Merged_PM3D_Demo1_Merged_PM3D_Demo10_Rough.png using Guid(40f7adf07e6cd4efda3423a6e95da260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f76b6c8020f05d6227834299e949e23') in 0.023276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Assets(ingame)/materials/demigorgon/Merged_PM3D_Demo1_Merged_PM3D_Demo10_Heigh.png
+  artifactKey: Guid(4428205485eb9465e994289560426006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/demigorgon/Merged_PM3D_Demo1_Merged_PM3D_Demo10_Heigh.png using Guid(4428205485eb9465e994289560426006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae63fb3ee1360b408ebdb4485836b22') in 0.014283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 242.216408 seconds.
+  path: Assets/Assets(ingame)/ImageToStl.com_magic_portal-2.fbx
+  artifactKey: Guid(e26f554d958884464abeb39e22bf4469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/ImageToStl.com_magic_portal-2.fbx using Guid(e26f554d958884464abeb39e22bf4469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211aadbec36822fc598605750493a533') in 0.327363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 174.846521 seconds.
+  path: Assets/Assets(ingame)/materials/portal
+  artifactKey: Guid(85d5169fb714d49c08aa790754e7b141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal using Guid(85d5169fb714d49c08aa790754e7b141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b112534f66f0c68a4f47baffe126078e') in 0.002620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.840452 seconds.
+  path: Assets/Assets(ingame)/materials/portal/checkers_baseColor.jpeg
+  artifactKey: Guid(40df661da15844132bfc1d6e02c961b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/checkers_baseColor.jpeg using Guid(40df661da15844132bfc1d6e02c961b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04709726d3344b7202e6099f0cf8d060') in 0.032678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Assets(ingame)/materials/portal/gameres_gameres_ground_Rocks_metallicRoughness.png
+  artifactKey: Guid(3bb91d9900e0b454d90a97ee618036bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/gameres_gameres_ground_Rocks_metallicRoughness.png using Guid(3bb91d9900e0b454d90a97ee618036bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db301c15ccd56722640292849b70f445') in 0.023453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000595 seconds.
+  path: Assets/Assets(ingame)/materials/portal/lambert1_metallicRoughness.png
+  artifactKey: Guid(b39500b033353485c8b5420e49d0fc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/lambert1_metallicRoughness.png using Guid(b39500b033353485c8b5420e49d0fc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f915737040ad6e46dc16877ebc152b') in 0.015403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Assets(ingame)/materials/portal/lambert1_emissive.jpeg
+  artifactKey: Guid(a41fa00ca322a449caca75bff222ee70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/lambert1_emissive.jpeg using Guid(a41fa00ca322a449caca75bff222ee70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddcc941e2a63a3780cc6f408b4da7a5') in 0.007654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Assets(ingame)/materials/portal/gameres_gameres_lambert2_normal.png
+  artifactKey: Guid(8a97951ab28574e04b900d19c17583f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/gameres_gameres_lambert2_normal.png using Guid(8a97951ab28574e04b900d19c17583f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96b58f917d21f1099e890ee75f1fce6') in 0.007700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Assets(ingame)/materials/portal/gameres_gameres_lambert2_baseColor.png
+  artifactKey: Guid(3115185cfa2a343dabb89366e5f021fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/gameres_gameres_lambert2_baseColor.png using Guid(3115185cfa2a343dabb89366e5f021fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d9d05114288d0cf6b8c935585d5267') in 0.013653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Assets(ingame)/materials/portal/gameres_gameres_ground_Rocks_baseColor.jpeg
+  artifactKey: Guid(cd4843ac9ce1240f38f076e1dd06a5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/gameres_gameres_ground_Rocks_baseColor.jpeg using Guid(cd4843ac9ce1240f38f076e1dd06a5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1beff2a26681b9ef413a5228b104db3') in 0.015376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Assets(ingame)/materials/portal/checkers_normal.png
+  artifactKey: Guid(b6fb0a232c35b458ab9b69f5e960fe7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/checkers_normal.png using Guid(b6fb0a232c35b458ab9b69f5e960fe7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2114deab5d4da74ff717a33016fffba') in 0.008414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Assets(ingame)/materials/portal/gameres_gameres_PortalRocks_emissive.jpeg
+  artifactKey: Guid(06a709893c1be43eba145f1f10f45bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/gameres_gameres_PortalRocks_emissive.jpeg using Guid(06a709893c1be43eba145f1f10f45bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64997428e260d016f45780a062fd0989') in 0.007975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Assets(ingame)/materials/portal/gameres_gameres_PortalRocks_metallicRoughness.png
+  artifactKey: Guid(f51831df9bf15414c9a75f3b4faf8564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/gameres_gameres_PortalRocks_metallicRoughness.png using Guid(f51831df9bf15414c9a75f3b4faf8564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ba93e0c102948db1483099b621b1a3') in 0.009788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Assets(ingame)/materials/portal/gameres_gameres_PortalRocks_baseColor.jpeg
+  artifactKey: Guid(c9fb9503cdc724d129d174f356f63c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/gameres_gameres_PortalRocks_baseColor.jpeg using Guid(c9fb9503cdc724d129d174f356f63c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7cc5988d618115c738fe1c149cbd1f1') in 0.009269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Assets(ingame)/materials/portal/lambert1_baseColor.png
+  artifactKey: Guid(ffe4033dc621d45aeab10d2103cfc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/lambert1_baseColor.png using Guid(ffe4033dc621d45aeab10d2103cfc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b0a77504d10b8123893a071c46b79c') in 0.009315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Assets(ingame)/materials/portal/checkers_emissive.jpeg
+  artifactKey: Guid(e2bbf612bce1c441d8c964ebd0f763a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/checkers_emissive.jpeg using Guid(e2bbf612bce1c441d8c964ebd0f763a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ef294c4d4a1b5c9b5ac3c74a8b6e2a') in 0.007597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Assets(ingame)/materials/portal/gameres_gameres_PortalRocks_normal.png
+  artifactKey: Guid(2d2a77c0842604d37b473274e03acc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/gameres_gameres_PortalRocks_normal.png using Guid(2d2a77c0842604d37b473274e03acc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd26338b3cf6ab620fb9f012addbf12') in 0.010506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Assets(ingame)/materials/portal/gameres_gameres_lambert2_metallicRoughness.png
+  artifactKey: Guid(9bb6958f4957f488394ca6932d9b1090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/gameres_gameres_lambert2_metallicRoughness.png using Guid(9bb6958f4957f488394ca6932d9b1090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06da292833eecb4bfbb42fccacea26f3') in 0.009733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Assets(ingame)/materials/portal/checkers_metallicRoughness.png
+  artifactKey: Guid(d36747eb556ed4bf9a475bbfef44fceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/checkers_metallicRoughness.png using Guid(d36747eb556ed4bf9a475bbfef44fceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991b358d9250f397b0728f1a6cb1f5b6') in 0.009893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Assets(ingame)/materials/portal/gameres_gameres_ground_Rocks_normal.png
+  artifactKey: Guid(10bc44933cc234f7fb836c928f306f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/gameres_gameres_ground_Rocks_normal.png using Guid(10bc44933cc234f7fb836c928f306f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d05f7fc5f2633e3644d8852477997f') in 0.008301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.000659 seconds.
+  path: Assets/Assets(ingame)/materials/portal/mat1.mat
+  artifactKey: Guid(b11c1bc668fa74824aa938ae6c9737b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/mat1.mat using Guid(b11c1bc668fa74824aa938ae6c9737b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598c4bdf56c908b75436c19a361480d8') in 0.015085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.726274 seconds.
+  path: Assets/Assets(ingame)/materials/portal/mat2.mat
+  artifactKey: Guid(d9f476f74dc9c47fca8c6f5eb00ba238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/mat2.mat using Guid(d9f476f74dc9c47fca8c6f5eb00ba238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c1f255a776b1ce3910a01a0bac3698') in 0.033048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.711133 seconds.
+  path: Assets/Assets(ingame)/materials/portal/mat3.mat
+  artifactKey: Guid(f5e5ca8a38cd743479ce61e3827a2d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/mat3.mat using Guid(f5e5ca8a38cd743479ce61e3827a2d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab1b836bdf65bd7c82739c6faeda8a7') in 0.009073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 675.721101 seconds.
+  path: Assets/Assets(ingame)/materials/portal/mat4.mat
+  artifactKey: Guid(52eac723fd14c49e99101956ed3aa0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/portal/mat4.mat using Guid(52eac723fd14c49e99101956ed3aa0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13ecb477066d42d036d9121eb3d00d1') in 0.037055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 390.312868 seconds.
+  path: Assets/Assets(ingame)/characters/fluffy_cloud.fbx
+  artifactKey: Guid(0c0ee13e2f4b84382a38087b1ced5eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/fluffy_cloud.fbx using Guid(0c0ee13e2f4b84382a38087b1ced5eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80468785cdc92797bb535d31000bd69d') in 0.125351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 226.801518 seconds.
+  path: Assets/Assets(ingame)/characters/cloud.fbx
+  artifactKey: Guid(adf160dd069a94f109412b2a2f97185d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/cloud.fbx using Guid(adf160dd069a94f109412b2a2f97185d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd53b1de0ecea6642885223300df446d') in 0.128911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.348247 seconds.
+  path: Assets/Assets(ingame)/characters/New Terrain.asset
+  artifactKey: Guid(b0b2b758c0704479aaeccb01f02ef384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/New Terrain.asset using Guid(b0b2b758c0704479aaeccb01f02ef384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11351822a79072edb0720564fa280ffc') in 0.094176 seconds 

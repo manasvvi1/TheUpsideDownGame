@@ -1,192 +1,261 @@
+Unity Editor version:    2020.3.38f1 (8f5fde82e2dc)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.4 (Build 21F79)
+Darwin version:          21.5.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.38f1 (8f5fde82e2dc) revision 9396190'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7522 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+Pro License: NO
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity 2020.3.38f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/sneha/OneDrive/Desktop/Unity/TheUpsideDownGame/TheUpsideDown
+/Users/nandinipaarshar9/Desktop/Untitled/TheUpsideDown
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56582
-Successfully changed project path to: C:/Users/sneha/OneDrive/Desktop/Unity/TheUpsideDownGame/TheUpsideDown
-C:/Users/sneha/OneDrive/Desktop/Unity/TheUpsideDownGame/TheUpsideDown
+49673
+Successfully changed project path to: /Users/nandinipaarshar9/Desktop/Untitled/TheUpsideDown
+/Users/nandinipaarshar9/Desktop/Untitled/TheUpsideDown
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 52.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.38f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/sneha/OneDrive/Desktop/Unity/TheUpsideDownGame/TheUpsideDown/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/nandinipaarshar9/Desktop/Untitled/TheUpsideDown/Assets
 GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon (TM) Graphics (ID=0x15e7)
-    Vendor:   
-    VRAM:     3761 MB
-    Driver:   30.0.14046.0
+2022-09-09 12:50:22.590 Unity[1960:38347] (null) preferred device: Apple M1 (high power)
+2022-09-09 12:50:22.590 Unity[1960:38347] Metal devices available: 1
+2022-09-09 12:50:22.590 Unity[1960:38347] 0: Apple M1 (high power)
+2022-09-09 12:50:22.591 Unity[1960:38347] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity 2020.3.38f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity 2020.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity 2020.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity 2020.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002967 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.88 ms, found 2 plugins.
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000969 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 50.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.690 seconds
+- Completed reload, in  1.407 seconds
 Domain Reload Profiling:
-	ReloadAssembly (691ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (1408ms)
+		BeginReloadAssembly (114ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (521ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (163ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1161ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (3ms)
+			SetupTypeCache (242ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (219ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (535ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (107ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (319ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005280 seconds.
+Registered in 0.002095 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.12 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 53.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.602 seconds
+- Completed reload, in  2.765 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1604ms)
-		BeginReloadAssembly (159ms)
+	ReloadAssembly (2773ms)
+		BeginReloadAssembly (259ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (33ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1380ms)
-			LoadAssemblies (110ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (2421ms)
+			LoadAssemblies (189ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (363ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (733ms)
+			SetupTypeCache (351ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1537ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (546ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (1226ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
+Validating Project structure ... 0.008682 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.049566 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.38f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.22 seconds
+Initializing Unity extensions:
+2022-09-09 12:50:33.104 Unity[1960:38347] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003905b90 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-09-09 12:50:33.107 Unity[1960:38347] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000039188c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1747 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.1 MB.
-System memory in use after: 147.0 MB.
+Unloading 2103 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 290.6 MB.
+System memory in use after: 290.0 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2229.
-Total: 3.992100 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.055100 ms MarkObjects: 3.523600 ms  DeleteObjects: 0.239600 ms)
+Unloading 126 unused Assets to reduce memory usage. Loaded Objects now: 2613.
+Total: 3.456083 ms (FindLiveObjects: 0.131042 ms CreateObjectMapping: 0.049125 ms MarkObjects: 2.776292 ms  DeleteObjects: 0.498708 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Entry.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Entry.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60990774b78b1edf57c31d99f2a6ea6') in 0.013421 seconds 
+  path: Assets/2 compleet.3ds.3ds
+  artifactKey: Guid(83db09e5aa99ffb4a99b535f28a04e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 compleet.3ds.3ds using Guid(83db09e5aa99ffb4a99b535f28a04e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805b1a94c8a803aa16ecaacd716d976f') in 4.881513 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.360466 seconds.
-  path: Assets/Scenes/Level3.unity
-  artifactKey: Guid(a758bf365b6e740c18ba46bb2358bd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level3.unity using Guid(a758bf365b6e740c18ba46bb2358bd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a77374c524930d27ce2ce85a932807b') in 0.006858 seconds 
+  Time since last request: 0.001010 seconds.
+  path: Assets/bare_branches_merged.png
+  artifactKey: Guid(b667fe0076eb8244b95298ff328a7b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bare_branches_merged.png using Guid(b667fe0076eb8244b95298ff328a7b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d547e253954be22bdfac186c30c8e1') in 0.673587 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.630478 seconds.
-  path: Assets/Scenes/Level2.unity
-  artifactKey: Guid(b99e541eb722745e1a2ebc081bffd276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level2.unity using Guid(b99e541eb722745e1a2ebc081bffd276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec370f3235d1b39cba76438ef64f98b6') in 0.008823 seconds 
+  Time since last request: 0.000249 seconds.
+  path: Assets/ground.terrainlayer
+  artifactKey: Guid(daf64c3d78dfaed428e631221044e3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ground.terrainlayer using Guid(daf64c3d78dfaed428e631221044e3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b88617d093c7067e8d24ad974ae6268') in 0.081824 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 88.230418 seconds.
-  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/bottom.mat
-  artifactKey: Guid(5503554d874374891bfa3f28f0945269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/bottom.mat using Guid(5503554d874374891bfa3f28f0945269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e700c0688f2478742fcadf6f535c1da5') in 0.257491 seconds 
+  Time since last request: 0.000218 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(524c82a5c214e934fbe94578b7d99909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(524c82a5c214e934fbe94578b7d99909) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Bush5 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree RockMesh must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '00520330ddda9e0af2e2823289b6fc03') in 0.098070 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Stars-Big_1.png
-  artifactKey: Guid(c6944f9f15bd0ca4087bcdf033f0e162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Stars-Big_1.png using Guid(c6944f9f15bd0ca4087bcdf033f0e162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b3119e9dee6128dc0013a8b1893147') in 0.070216 seconds 
+  Time since last request: 0.000317 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(05e66ca4669392244bdf46dff4334c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(05e66ca4669392244bdf46dff4334c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cde72c8a9102f046d774b9d68d58e9') in 0.683320 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Nebula Red.png
-  artifactKey: Guid(35313af049b4a2f42a0325330c51d74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Nebula Red.png using Guid(35313af049b4a2f42a0325330c51d74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b645c6d5a365e00aa42b299ba47cb07') in 0.051344 seconds 
+  Time since last request: 38.325662 seconds.
+  path: Assets/Assets(ingame)/characters/ImageToStl.com_portal.fbx
+  artifactKey: Guid(345723ea2dc3247809ede2c5ac606684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/ImageToStl.com_portal.fbx using Guid(345723ea2dc3247809ede2c5ac606684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd213bc2220be5813e089327eb350222c') in 0.159259 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/stranger-things-netflix-tv-series-fan-art-wallpaper-preview.jpeg
-  artifactKey: Guid(54d640a0c61984ffbb9733043e7a120f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/stranger-things-netflix-tv-series-fan-art-wallpaper-preview.jpeg using Guid(54d640a0c61984ffbb9733043e7a120f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451d3ab0296ae499b992eb26d8bf8cdc') in 0.042032 seconds 
+  Time since last request: 0.000283 seconds.
+  path: Assets/Assets(ingame)/characters/New Terrain.asset
+  artifactKey: Guid(b0b2b758c0704479aaeccb01f02ef384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/New Terrain.asset using Guid(b0b2b758c0704479aaeccb01f02ef384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11351822a79072edb0720564fa280ffc') in 0.030584 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Stars Small_1.png
-  artifactKey: Guid(efe6ce32a6a4408489775c70e5d32f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Stars Small_1.png using Guid(efe6ce32a6a4408489775c70e5d32f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e4e01fd9e27b027a0b227505f1cc1d') in 0.067177 seconds 
+  Time since last request: 39.197277 seconds.
+  path: Assets/Assets(ingame)/characters/mixamo
+  artifactKey: Guid(c84b9ff2e66f041689a991d1cfb99056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/mixamo using Guid(c84b9ff2e66f041689a991d1cfb99056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31769cb75bd47b4a0b8bffdfd10a114a') in 0.002072 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/New Material.mat
-  artifactKey: Guid(5193c22af4ea24e2298359139d102392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/New Material.mat using Guid(5193c22af4ea24e2298359139d102392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd5109021b1a3797358801f49b9a647') in 0.043555 seconds 
+  Time since last request: 0.065855 seconds.
+  path: Assets/Assets(ingame)/characters/mixamo/X Bot@Female Stop Walking.fbx
+  artifactKey: Guid(417c25ba6bd564c9fa8b10df82552713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/mixamo/X Bot@Female Stop Walking.fbx using Guid(417c25ba6bd564c9fa8b10df82552713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12828a603c7089da4e61bf8b040cfb21') in 0.155103 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/mainbg.mat
-  artifactKey: Guid(256aa53742b8445ea802542456153bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/mainbg.mat using Guid(256aa53742b8445ea802542456153bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e6de041d58e21f14cbeca4f06887f8') in 0.248421 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  Time since last request: 0.000198 seconds.
+  path: Assets/Assets(ingame)/characters/mixamo/X Bot@Right Strafe.fbx
+  artifactKey: Guid(b87b667779dc1462cadf4b0cb0361b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/mixamo/X Bot@Right Strafe.fbx using Guid(b87b667779dc1462cadf4b0cb0361b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddc913d1d51faa92c369cf928b224b0') in 0.089189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Assets(ingame)/characters/mixamo/X Bot@Running.fbx
+  artifactKey: Guid(e94d13e87db9c49848ee191d7b19f035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/mixamo/X Bot@Running.fbx using Guid(e94d13e87db9c49848ee191d7b19f035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdae3b7cb181f86e29981b873798febf') in 0.062624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Assets(ingame)/characters/mixamo/X Bot@Left Strafe.fbx
+  artifactKey: Guid(5af83b451d2a64e589c4ea8dc2f61ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/mixamo/X Bot@Left Strafe.fbx using Guid(5af83b451d2a64e589c4ea8dc2f61ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3449fae0a81266379de65d83a7373d9f') in 0.062972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Assets(ingame)/characters/mixamo/X Bot@Idle.fbx
+  artifactKey: Guid(7b668a84c14064145bd3170311a0fdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/mixamo/X Bot@Idle.fbx using Guid(7b668a84c14064145bd3170311a0fdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b844f9ed70dbba6f76f7bdb6b64708') in 0.061227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.192077 seconds.
+  path: Assets/Assets(ingame)/characters
+  artifactKey: Guid(efb67e784d60747febd8d208fe4070a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters using Guid(efb67e784d60747febd8d208fe4070a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b641aef7d22bcf83d2066e5c44f485') in 0.001602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.123555 seconds.
+  path: Assets/Assets(ingame)/characters/animationsforplayer
+  artifactKey: Guid(ed9d2d01dc0a8407586afdbec299d98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/animationsforplayer using Guid(ed9d2d01dc0a8407586afdbec299d98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3751a79360c473f48f424b53c0651b') in 0.001565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082824 seconds.
+  path: Assets/Assets(ingame)/characters/animationsforplayer/ONZE.fbx
+  artifactKey: Guid(667673e3d66864404bdff9e2bccc4880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/animationsforplayer/ONZE.fbx using Guid(667673e3d66864404bdff9e2bccc4880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af07b569fc25ed6c1afc2220ba47c32') in 0.129495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.123057 seconds.
+  path: Assets/Assets(ingame)/characters/animationsforplayer/New Scene.unity
+  artifactKey: Guid(392bbef4e7ea648b9890249593c87c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/animationsforplayer/New Scene.unity using Guid(392bbef4e7ea648b9890249593c87c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af87b74bae63df0f035945c1e9fac9ef') in 0.002406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.703470 seconds.
+  path: Assets/Assets(ingame)/characters/animationsforplayer/Input Actions.inputactions
+  artifactKey: Guid(450c1090371874e6a9f898c20c9b995c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/animationsforplayer/Input Actions.inputactions using Guid(450c1090371874e6a9f898c20c9b995c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275ca401ecab52e0b7ed469841e49d64') in 0.150001 seconds 

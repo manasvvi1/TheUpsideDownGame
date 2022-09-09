@@ -41,7 +41,7 @@
      <Compile Include="Assets/Assets(ingame)/characters/mixamo/animationcontrols.cs" />
      <Compile Include="Assets/Assets(ingame)/Terrain/Tom&apos;s Terrain Tools/Scripts/PlaceOnSurfaceAtStart.cs" />
      <Compile Include="Assets/Others/TutorialInfo/Scripts/Readme.cs" />
-     <Compile Include="Assets/blendtreeanimations.cs" />
+     <Compile Include="Assets/scripts/blendtreeanimations.cs" />
      <Compile Include="Assets/scripts/eleven/Inputcontrols.cs" />
      <Compile Include="Assets/Assets(ingame)/Terrain/Tom&apos;s Terrain Tools/Scripts/ForceGrassDistanceInEditor.cs" />
      <Compile Include="Assets/scripts/eleven/restartwithbutton.cs" />
@@ -52,9 +52,11 @@
      <Compile Include="Assets/Assets(ingame)/Terrain/Tom&apos;s Terrain Tools/2DTools/Scripts/CircleMoverSample.cs" />
      <Compile Include="Assets/Assets(ingame)/Terrain/Tom&apos;s Terrain Tools/Example Data/Scripts/PlayerHoverController.cs" />
      <Compile Include="Assets/scripts/eleven/velocity.cs" />
-     <Compile Include="Assets/PlayerController.cs" />
+     <Compile Include="Assets/scripts/PlayerController.cs" />
      <Compile Include="Assets/Assets(ingame)/terrain assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/CTI_Utils.cs" />
      <Compile Include="Assets/Assets(ingame)/Terrain/Tom&apos;s Terrain Tools/Scripts/TreeExplosion.cs" />
+     <Compile Include="Assets/Assets(ingame)/characters/animationsforplayer/Input Actions.cs" />
+     <Compile Include="Assets/AnimationsandMovementControls.cs" />
      <None Include="Assets/Assets(ingame)/terrain assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Shaders/CTI_LOD_Bark_Array_301.shader" />
      <None Include="Assets/Assets(ingame)/Terrain/Tom&apos;s Terrain Tools/Example Data/Terragen Sources/README.txt" />
      <None Include="Assets/Assets(ingame)/terrain assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Shaders/CTI_LOD_Billboard_301.shader" />

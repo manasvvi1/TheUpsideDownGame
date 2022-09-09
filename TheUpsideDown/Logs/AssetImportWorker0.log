@@ -15,11 +15,11 @@ C:/Users/sneha/OneDrive/Desktop/Unity/TheUpsideDownGame/TheUpsideDown
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56582
+55135
 Successfully changed project path to: C:/Users/sneha/OneDrive/Desktop/Unity/TheUpsideDownGame/TheUpsideDown
 C:/Users/sneha/OneDrive/Desktop/Unity/TheUpsideDownGame/TheUpsideDown
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2020.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2020.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2020.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2020.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002967 seconds.
+Registered in 0.004234 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 68.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.690 seconds
+- Completed reload, in  0.882 seconds
 Domain Reload Profiling:
-	ReloadAssembly (691ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (882ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (521ms)
-			LoadAssemblies (81ms)
+		EndReloadAssembly (642ms)
+			LoadAssemblies (117ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (163ms)
+			SetupTypeCache (215ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (219ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (254ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (107ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005280 seconds.
+Registered in 0.010852 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 67.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.602 seconds
+- Completed reload, in  1.803 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1604ms)
-		BeginReloadAssembly (159ms)
+	ReloadAssembly (1805ms)
+		BeginReloadAssembly (239ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1380ms)
-			LoadAssemblies (110ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1481ms)
+			LoadAssemblies (184ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (363ms)
+			SetupTypeCache (384ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (733ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (754ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (546ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (567ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1747 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.1 MB.
-System memory in use after: 147.0 MB.
+System memory in use before: 147.2 MB.
+System memory in use after: 147.2 MB.
 
 Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2229.
-Total: 3.992100 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.055100 ms MarkObjects: 3.523600 ms  DeleteObjects: 0.239600 ms)
+Total: 4.965900 ms (FindLiveObjects: 0.195100 ms CreateObjectMapping: 0.068400 ms MarkObjects: 4.332800 ms  DeleteObjects: 0.368400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,61 +132,141 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Entry.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Entry.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60990774b78b1edf57c31d99f2a6ea6') in 0.013421 seconds 
+  path: Assets/Assets(ingame)/materials/upsidedownportal/Drooling_alphamask_1.png
+  artifactKey: Guid(ebe03f352c4cd4649bf0a718b14ca0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/Drooling_alphamask_1.png using Guid(ebe03f352c4cd4649bf0a718b14ca0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90cd3192f391b1878b356c4fdd1fff7') in 0.164280 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.360466 seconds.
-  path: Assets/Scenes/Level3.unity
-  artifactKey: Guid(a758bf365b6e740c18ba46bb2358bd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level3.unity using Guid(a758bf365b6e740c18ba46bb2358bd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a77374c524930d27ce2ce85a932807b') in 0.006858 seconds 
+  Time since last request: 0.000467 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/Window_diff.png
+  artifactKey: Guid(798c533c4494745aca8d8d5bf2da64c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/Window_diff.png using Guid(798c533c4494745aca8d8d5bf2da64c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cec73274d9bda892c769d8e8d840834') in 0.021001 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.630478 seconds.
-  path: Assets/Scenes/Level2.unity
-  artifactKey: Guid(b99e541eb722745e1a2ebc081bffd276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level2.unity using Guid(b99e541eb722745e1a2ebc081bffd276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec370f3235d1b39cba76438ef64f98b6') in 0.008823 seconds 
+  Time since last request: 0.000314 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/Drooling_Diff.png
+  artifactKey: Guid(39bbd1210c6024d7297da4e5b7c841c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/Drooling_Diff.png using Guid(39bbd1210c6024d7297da4e5b7c841c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9452d0127c4e8ff701bbd849e5c390e2') in 0.025630 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 88.230418 seconds.
-  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/bottom.mat
-  artifactKey: Guid(5503554d874374891bfa3f28f0945269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/bottom.mat using Guid(5503554d874374891bfa3f28f0945269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e700c0688f2478742fcadf6f535c1da5') in 0.257491 seconds 
+  Time since last request: 0.000310 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/Branches_normal.png
+  artifactKey: Guid(5a60fb2981cb44917b2116d04e562abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/Branches_normal.png using Guid(5a60fb2981cb44917b2116d04e562abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13510d3b5e06b9c18ec53bce61d9327f') in 0.059711 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Stars-Big_1.png
-  artifactKey: Guid(c6944f9f15bd0ca4087bcdf033f0e162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Stars-Big_1.png using Guid(c6944f9f15bd0ca4087bcdf033f0e162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b3119e9dee6128dc0013a8b1893147') in 0.070216 seconds 
+  Time since last request: 0.000296 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/Drooling_ao.png
+  artifactKey: Guid(fbcce7834d14645109f45ac4152ab913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/Drooling_ao.png using Guid(fbcce7834d14645109f45ac4152ab913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4235052452f879f39570e04992573a0e') in 0.018997 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Nebula Red.png
-  artifactKey: Guid(35313af049b4a2f42a0325330c51d74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Nebula Red.png using Guid(35313af049b4a2f42a0325330c51d74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b645c6d5a365e00aa42b299ba47cb07') in 0.051344 seconds 
+  Time since last request: 0.000318 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/Branches_Diff.png
+  artifactKey: Guid(47609944a25ce48ba8495866c4c95d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/Branches_Diff.png using Guid(47609944a25ce48ba8495866c4c95d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867d8a3595a834e269bd71565e62f0ff') in 0.025099 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/stranger-things-netflix-tv-series-fan-art-wallpaper-preview.jpeg
-  artifactKey: Guid(54d640a0c61984ffbb9733043e7a120f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/stranger-things-netflix-tv-series-fan-art-wallpaper-preview.jpeg using Guid(54d640a0c61984ffbb9733043e7a120f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451d3ab0296ae499b992eb26d8bf8cdc') in 0.042032 seconds 
+  Time since last request: 0.000298 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/Drooling_normal_.png
+  artifactKey: Guid(00185b66827af41589756183b7e1ea6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/Drooling_normal_.png using Guid(00185b66827af41589756183b7e1ea6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b39f8e307311f137ffd871e5bb76bc3') in 0.017205 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Stars Small_1.png
-  artifactKey: Guid(efe6ce32a6a4408489775c70e5d32f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/Stars Small_1.png using Guid(efe6ce32a6a4408489775c70e5d32f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e4e01fd9e27b027a0b227505f1cc1d') in 0.067177 seconds 
+  Time since last request: 0.000247 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/mat3.mat
+  artifactKey: Guid(a2d4a3e961e3f4475ac6340e6e1f4d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/mat3.mat using Guid(a2d4a3e961e3f4475ac6340e6e1f4d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc47aeb1aa16e0a353171a2a93408d94') in 0.084731 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/New Material.mat
-  artifactKey: Guid(5193c22af4ea24e2298359139d102392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/New Material.mat using Guid(5193c22af4ea24e2298359139d102392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd5109021b1a3797358801f49b9a647') in 0.043555 seconds 
+  Time since last request: 0.000304 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/mat1.mat
+  artifactKey: Guid(8f0453f0b74da4880a5ca4e71d4abd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/mat1.mat using Guid(8f0453f0b74da4880a5ca4e71d4abd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5781c18aee05e1e60267b72a12dae69') in 0.030124 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/mainbg.mat
-  artifactKey: Guid(256aa53742b8445ea802542456153bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets(ingame)/materials/background/DinV/Dynamic Space Background/Sprites/mainbg.mat using Guid(256aa53742b8445ea802542456153bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e6de041d58e21f14cbeca4f06887f8') in 0.248421 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  Time since last request: 0.000246 seconds.
+  path: Assets/Assets(ingame)/materials/upsidedownportal/mat2.mat
+  artifactKey: Guid(ab213797723db478ba105757f1ecd6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/materials/upsidedownportal/mat2.mat using Guid(ab213797723db478ba105757f1ecd6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b81217fa7aa1c60511d917f12acbcb') in 0.035065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.809305 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(aff400c7214254b18905b995f349ee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(aff400c7214254b18905b995f349ee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd44c9e577832bf32a1a04d0dd9b3a8') in 0.009130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 199.692787 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d728c85cdd25b46026a0bb391c1a62') in 0.009330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 603.306631 seconds.
+  path: Assets/Assets(ingame)/characters
+  artifactKey: Guid(efb67e784d60747febd8d208fe4070a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters using Guid(efb67e784d60747febd8d208fe4070a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31246de32bf48a58ba0c6078d26eb20d') in 0.019626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Assets(ingame)/characters/New Terrain.asset
+  artifactKey: Guid(b0b2b758c0704479aaeccb01f02ef384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets(ingame)/characters/New Terrain.asset using Guid(b0b2b758c0704479aaeccb01f02ef384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781e304ccd8a6a3e267f5193e5dd5db8') in 0.313617 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006005 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.164 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3180ms)
+		BeginReloadAssembly (808ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (83ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (389ms)
+		EndReloadAssembly (2227ms)
+			LoadAssemblies (298ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (553ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (1164ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (968ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1697 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.0 MB.
+System memory in use after: 146.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2277.
+Total: 4.728200 ms (FindLiveObjects: 0.223700 ms CreateObjectMapping: 0.066000 ms MarkObjects: 4.170500 ms  DeleteObjects: 0.266600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

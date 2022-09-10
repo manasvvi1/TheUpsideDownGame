@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:45732fb8bd06e2359dc773eebdfff57831b6b14916d0b0439663f2825ecfcb78
-size 631
+
+using System;
+
+namespace UnityEditor.Experimental.TerrainAPI
+{
+    public class MeshBrushUIGroup : BaseBrushUIGroup
+    {
+        public MeshBrushUIGroup( string name, Func<TerrainToolsAnalytics.IBrushParameter[]> analyticsCall = null ) : base( name, analyticsCall)
+        {
+            AddSizeController(new BrushSizeVariator(name, this, this));             
+            AddRotationController(new BrushRotationVariator(name, this, this));
+            AddStrengthController(new BrushStrengthVariator(name, this, this, .075f));
+            AddSmoothingController(new DefaultBrushSmoother(name));
+        }
+    }
+}

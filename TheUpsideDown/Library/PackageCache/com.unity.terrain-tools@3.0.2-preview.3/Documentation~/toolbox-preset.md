@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b843c2a47f2512bf84e2a848fb543e1a396a762489065b6b80bf77f933d6c2e3
-size 753
+## Preset
+
+The **Create New Terrain** wizard lets you save and load settings by using a preset Asset file. This allows you to recreate the same Terrain from a prior one, and you can share the preset file with other team members to expedite Terrain creation.
+
+![](images/Toolbox_Create_Preset.png)
+
+| **Property** | **Description**                                              |
+| ------------ | ------------------------------------------------------------ |
+| **Save**     | Saves the current settings into a selected preset file. Creates a new preset file if it doesn't exist. |
+| **Save As**  | Saves the current settings into a new preset file.           |
+| **Refresh**  | Reloads settings from a selected preset file.                |
+

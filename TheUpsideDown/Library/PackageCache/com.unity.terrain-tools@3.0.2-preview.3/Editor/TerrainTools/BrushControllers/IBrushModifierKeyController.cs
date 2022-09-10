@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dc2441c9c038e0051cef16aa9b5a6dd31f33186d6db7158b6768c5ff0d6ea439
-size 471
+
+using System;
+
+namespace UnityEditor.Experimental.TerrainAPI
+{
+	[Flags]
+	public enum BrushModifierKey {
+		BRUSH_MOD_INVERT = 0,
+		BRUSH_MOD_1 = 1,
+		BRUSH_MOD_2 = 2,
+		BRUSH_MOD_3 = 3
+	}
+	
+	public interface IBrushModifierKeyController
+	{
+		event Action<BrushModifierKey> OnModifierPressed;
+		event Action<BrushModifierKey> OnModifierReleased;
+		
+		void OnEnterToolMode();
+		void OnExitToolMode();
+
+		bool ModifierActive(BrushModifierKey k);
+	}
+}

@@ -1,5 +1,3 @@
-# Terrain Visualization
-
-The **Terrain Visualization** wizard contains tools that make it easier for you to visualize different aspects of a Terrain while you edit it. Use the **Visualization Modes** dropdown menu to select a mode. Currently, the only options are **None** and **Altitude Heatmap**.
-
-![](images/Toolbox_Visualization.png)
+version https://git-lfs.github.com/spec/v1
+oid sha256:3bb7bb54d13adf84dcb10db1dc79e7f4e4bc216c381a462b16cc1353bb73d2ea
+size 341

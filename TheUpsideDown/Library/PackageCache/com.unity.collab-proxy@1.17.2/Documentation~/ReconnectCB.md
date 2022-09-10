@@ -1,10 +1,3 @@
-# Connect Unity Cloud Build
-
-Unity Cloud Build is a [continuous integration](https://docs.unity3d.com/2022.2/Documentation/Manual/UnityCloudBuild.html#automated-build-generation) that automatically creates multiplatform builds in the Cloud in minutes. You can point Cloud Build toward your version control system to:
-
-* Automate new builds
-* Build faster
-* Catch problems earlier
-* Iterate on your builds more efficiently with agility.
-
-To get started, see [Pay as you go with Cloud Build](https://docs.unity3d.com/2022.2/Documentation/Manual/UnityCloudBuildMeteredBilling.html).
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a1b7ae690d6232386821651b0c4b0d3aa03e0e7d61aa6f06d95080e30bbf602
+size 580

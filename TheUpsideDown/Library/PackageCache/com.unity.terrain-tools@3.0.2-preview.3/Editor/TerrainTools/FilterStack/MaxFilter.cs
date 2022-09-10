@@ -1,33 +1,3 @@
-using UnityEngine;
-
-namespace UnityEditor.Experimental.TerrainAPI
-{
-    [System.Serializable]
-    public class MaxFilter : Filter
-    {
-        [SerializeField]
-        public float value;
-        
-        public override string GetDisplayName()
-        {
-            return "Max";
-        }
-
-        public override string GetToolTip()
-        {
-            return "Sets all pixels of the current mask to whichever is greater, the current pixel value or the input value.";
-        }
-
-        protected override void OnEval(FilterContext fc, RenderTexture sourceRenderTexture, RenderTexture destinationRenderTexture)
-        {
-            FilterUtility.builtinMaterial.SetFloat("_Max", value);
-
-            Graphics.Blit( sourceRenderTexture, destinationRenderTexture, FilterUtility.builtinMaterial, ( int )FilterUtility.BuiltinPasses.Max );
-        }
-
-        protected override void OnDrawGUI(Rect rect, FilterContext filterContext)
-        {
-            value = EditorGUI.FloatField(rect, value);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7422725114272548eef2ae87b3a9971371e40c449a2af4a509850a57bb6fe883
+size 1049

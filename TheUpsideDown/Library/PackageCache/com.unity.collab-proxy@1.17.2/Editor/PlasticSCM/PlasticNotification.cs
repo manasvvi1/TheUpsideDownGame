@@ -1,26 +1,3 @@
-using UnityEngine;
-using Unity.PlasticSCM.Editor.UI;
-
-namespace Unity.PlasticSCM.Editor
-{
-    internal static class PlasticNotification
-    {
-        internal enum Status
-        {
-            None,
-            IncomingChanges,
-            Conflicts
-        }
-
-        internal static Texture GetIcon(Status status)
-        {
-            if (status == Status.IncomingChanges)
-                return Images.GePlasticNotifyIncomingIcon();
-
-            if (status == Status.Conflicts)
-                return Images.GetPlasticNotifyConflictIcon();
-
-            return Images.GetPlasticViewIcon();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5fd91350e0ff9971c59b1a2ba7ebb109b457be78df3e4a6c3947f48d484d9bd
+size 611

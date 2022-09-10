@@ -1,28 +1,3 @@
-
-using UnityEngine;
-using UnityEngine.Experimental.TerrainAPI;
-
-namespace UnityEditor.Experimental.TerrainAPI
-{
-	public class DefaultNoiseController : IBrushNoiseController {
-		private NoiseSettingsGUI m_noiseSettingsGUI;
-		private NoiseSettings m_noiseSettings;
-
-		public void OnInspectorGUI(Terrain terrain, IOnInspectorGUI editContext) {
-
-			if (m_noiseSettings == null) {
-				m_noiseSettings = ScriptableObject.CreateInstance<NoiseSettings>();
-				m_noiseSettings.Reset();
-			}
-
-			if (m_noiseSettingsGUI == null) {
-				m_noiseSettingsGUI = new NoiseSettingsGUI();
-				m_noiseSettingsGUI.Init(m_noiseSettings);
-			}
-
-			m_noiseSettingsGUI.OnGUI(NoiseSettingsGUIFlags.Settings);
-		}
-
-		public void Blit(BrushTransform brushXform, ref RenderTexture target) { }
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3015813490f6a9182919d4d287231ce6d4e63d1a6fd32a6ac0537ebb58ddd640
+size 796

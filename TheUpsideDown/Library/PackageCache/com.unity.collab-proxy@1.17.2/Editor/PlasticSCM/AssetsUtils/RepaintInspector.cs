@@ -1,17 +1,3 @@
-﻿using UnityEditor;
-using UnityEngine;
-
-namespace Unity.PlasticSCM.Editor.AssetUtils
-{
-    internal static class RepaintInspector
-    {
-        internal static void All()
-        {
-            UnityEditor.Editor[] editors =
-                Resources.FindObjectsOfTypeAll<UnityEditor.Editor>();
-
-            foreach (UnityEditor.Editor editor in editors)
-                editor.Repaint();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:57c8b637a51da1085c5dd54b2b36a9a2270c1a4119d6f150db633978d2affa73
+size 408

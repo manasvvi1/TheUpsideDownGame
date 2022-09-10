@@ -1,8 +1,3 @@
-fileFormatVersion: 2
-guid: 8af83ca56e269414ea04a6700a4686f8
-ComputeShaderImporter:
-  externalObjects: {}
-  currentAPIMask: 4
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb06ead8ca0ed49aa5cedcc1a58fa3fb75b6127cc2197ae7daa4aa586d3e9a87
+size 189

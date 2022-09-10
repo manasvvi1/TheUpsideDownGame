@@ -1,17 +1,3 @@
-using UnityEngine;
-
-namespace UnityEditor.Experimental.TerrainAPI
-{
-    internal class NoiseBlitShaderGenerator : NoiseShaderGenerator<NoiseBlitShaderGenerator>
-    {
-        private static ShaderGeneratorDescriptor m_desc = new ShaderGeneratorDescriptor()
-        {
-            name = "NoiseBlit",
-            shaderCategory = "Hidden/TerrainTools/Noise/NoiseBlit",
-            outputDir = "Packages/com.unity.terrain-tools/Shaders/Generated/",
-            templatePath = "Packages/com.unity.terrain-tools/Shaders/NoiseLib/Templates/Blit.noisehlsltemplate"
-        };
-
-        public override ShaderGeneratorDescriptor GetDescription() => m_desc;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b577eaf2c8b7f848cba8fc7b036c429ad6b6019e7663abb322703a0dfda23334
+size 671

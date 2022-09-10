@@ -1,27 +1,3 @@
-﻿using UnityEditor;
-using UnityEngine;
-
-namespace Unity.PlasticSCM.Editor.UI
-{
-    internal static class DrawUserIcon
-    {
-        static internal void ForPendingChangesTab(string commentText)
-        {
-            Rect rect = BuildUserIconAreaRect(commentText, 35f);
-
-            GUI.DrawTexture(rect, Images.GetEmptyGravatar());
-        }
-
-        static Rect BuildUserIconAreaRect(string commentText, float sizeOfImage)
-        {
-            GUIStyle commentTextAreaStyle = UnityStyles.PendingChangesTab.CommentTextArea;
-
-            Rect result = GUILayoutUtility.GetRect(sizeOfImage, sizeOfImage); // Needs to be a square
-            result.x = commentTextAreaStyle.margin.left;
-
-            return result;
-        }
-
-        
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:75b3e33374e944a451df90781ce972b7108b2016a70875bc470a2cbda12a1881
+size 743

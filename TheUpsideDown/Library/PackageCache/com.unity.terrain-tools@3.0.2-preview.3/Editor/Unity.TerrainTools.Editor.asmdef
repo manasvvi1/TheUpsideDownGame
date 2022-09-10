@@ -1,17 +1,3 @@
-{
-    "name": "Unity.TerrainTools.Editor",
-    "references": [
-        "GUID:870ce330d12521c41ba8a44d9ad3a5fc"
-    ],
-    "includePlatforms": [
-        "Editor"
-    ],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": [],
-    "noEngineReferences": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b7cb9eadd5ba2f6dc8653892273fcbc617b9eda077707b02405edc84972ca56
+size 424

@@ -1,15 +1,3 @@
-using UnityEngine;
-
-namespace UnityEditor.Experimental.TerrainAPI
-{
-    [System.Serializable]
-    public class NegateFilter : Filter
-    {
-        public override string GetDisplayName() => "Negate";
-        public override string GetToolTip() => "Reverses the sign of all pixels in the current mask. For example, 1 becomes -1, 0 remains the same, and -1 becomes 1.";
-        protected override void OnEval(FilterContext filterContext, RenderTexture sourceRenderTexture, RenderTexture destinationRenderTexture)
-        {
-            Graphics.Blit( sourceRenderTexture, destinationRenderTexture, FilterUtility.builtinMaterial, ( int )FilterUtility.BuiltinPasses.Negate );
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8fcfed0dcc5b192a1fcc5be172252f88359bbdd2b507402612c0791010c757d8
+size 702

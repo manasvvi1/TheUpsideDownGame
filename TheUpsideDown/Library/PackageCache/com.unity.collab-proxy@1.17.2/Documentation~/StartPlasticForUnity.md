@@ -1,8 +1,3 @@
-# Getting started with Plastic SCM for Unity
-
-Plastic SCM for Unity will allow you to use Plastic SCM directly in Unity and is available via the Version Control package in the Unity Package Manager.
-
-Learn more about [Plastic SCM Cloud Edition](https://unity.com/products/plastic-scm).
-
-* To start with a new Plastic SCM repository for your project, see [Getting started with a New Plastic SCM repository](NewPlasticRepo.md).
-* To start from an existing Plastic SCM repository, see [Getting started with an existing Plastic SCM repository](ExistingPlasticRepo.md).
+version https://git-lfs.github.com/spec/v1
+oid sha256:48b35f740cab502798984ad4e926331764f3c6e268f68a8677f495a5690c2940
+size 564

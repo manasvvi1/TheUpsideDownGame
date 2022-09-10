@@ -1,6 +1,3 @@
-# More help
-
-To find more information on working with the Plastic SCM plug-in, see [Getting started with Plastic SCM](https://docs.unity3d.com/2022.1/Documentation/Manual/PlasticSCMPluginGettingStarted.html).
-
-You can also post and find questions related to Plastic SCM in the [Unity forum](https://forum.unity.com/forums/plastic-scm.605/).
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:f290425f5fb910089d48cd0373d41b7af7a3502f80b94e7c959dd4f09bd9811e
+size 342

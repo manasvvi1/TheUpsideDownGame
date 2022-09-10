@@ -1,20 +1,3 @@
-using UnityEngine;
-using UnityEditor;
-using UnityEditor.Experimental.TerrainAPI;
-
-namespace UnityEngine.Experimental.TerrainAPI
-{
-    public class NoiseComponent : MonoBehaviour
-    {
-        public Material mat;
-        public NoiseSettings noiseSettings;
-
-        void Update()
-        {
-            if(mat != null)
-            {
-                noiseSettings.SetupMaterial( mat );
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:48e10e07bffc77dc81c5c996b0f28c32c0cdb3a750f23088a1afa311068a4f99
+size 434

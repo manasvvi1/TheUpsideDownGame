@@ -1,26 +1,3 @@
-
-using UnityEngine;
-
-namespace UnityEditor.Experimental.TerrainAPI
-{
-	public interface IBrushEventHandler
-	{
-		/// <summary>
-		/// Register a system event for processing later.
-		/// </summary>
-		/// <param name="newEvent"></param>
-		void RegisterEvent(Event newEvent);
-		
-		/// <summary>
-		/// Consume previously registered events.
-		/// </summary>
-		/// <param name="terrain"></param>
-		/// <param name="editContext"></param>
-		void ConsumeEvents(Terrain terrain, IOnSceneGUI editContext);
-
-		/// <summary>
-		/// Allows us to request a repaint of the GUI and scene-view.
-		/// </summary>
-		void RequestRepaint();
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:448bd0ddab0c2a738ec61c8f52c3f0c3d462ce76fe0d8b9a9b48a21d6c384104
+size 646

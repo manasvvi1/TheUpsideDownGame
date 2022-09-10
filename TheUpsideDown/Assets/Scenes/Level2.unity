@@ -5501,10 +5501,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
-  jumpForce: 40
+  jumpForce: 50
   controller: {fileID: 1125449140}
   gravityScale: 9.8
+  pivot: {fileID: 0}
+  rotateSpeed: 0
   playerModel: {fileID: 1634171885}
+  knockBackForce: 0
+  knockBackTime: 0
+--- !u!114 &1125449137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125449135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26a051c29542b405bbef5ba0477e1989, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  jumpForce: 50
+  controller: {fileID: 0}
+  gravityScale: 0
+  pivot: {fileID: 0}
+  rotateSpeed: 0
+  playerModel: {fileID: 0}
   knockBackForce: 0
   knockBackTime: 0
 --- !u!143 &1125449140

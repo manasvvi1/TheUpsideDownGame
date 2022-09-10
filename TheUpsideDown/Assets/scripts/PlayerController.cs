@@ -15,9 +15,9 @@ public class PlayerController : MonoBehaviour
 
     public float gravityScale;
 
-    // public Transform pivot;
+    public Transform pivot;
 
-    // public float rotateSpeed;
+    public float rotateSpeed;
 
     public GameObject playerModel;
 
@@ -93,21 +93,21 @@ public class PlayerController : MonoBehaviour
         controller.Move(moveDirection * Time.deltaTime);
 
         //Move the player in different directions based on the camera look
-        // if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
-        // {
-        //     transform.rotation =
-        //         Quaternion.Euler(0f, pivot.rotation.eulerAngles.y, 0f);
-        //     Quaternion newRotation =
-        //         Quaternion
-        //             .LookRotation(new Vector3(moveDirection.x,
-        //                 0f,
-        //                 moveDirection.z));
-        //     playerModel.transform.rotation =
-        //         Quaternion
-        //             .Slerp(playerModel.transform.rotation,
-        //             newRotation,
-        //             rotateSpeed * Time.deltaTime);
-        // }
+        if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
+        {
+            transform.rotation =
+                Quaternion.Euler(0f, pivot.rotation.eulerAngles.y, 0f);
+            Quaternion newRotation =
+                Quaternion
+                    .LookRotation(new Vector3(moveDirection.x,
+                        0f,
+                        moveDirection.z));
+            playerModel.transform.rotation =
+                Quaternion
+                    .Slerp(playerModel.transform.rotation,
+                    newRotation,
+                    rotateSpeed * Time.deltaTime);
+        }
     }
 
     public void Knockback(Vector3 direction)

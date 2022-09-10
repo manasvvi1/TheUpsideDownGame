@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7b630de38b7e0e9f9dae2e0e93853bf3291148cd5be1eea5366235d42bccf43d
-size 259
+### Preset
+
+Similar to **Preset** in the Create New Terrain wizard, you can save the current settings or load settings using a preset Asset file. Preset files make it easy to share settings with other team members.
+
+![](images/Toolbox_Preset_Settings.png)

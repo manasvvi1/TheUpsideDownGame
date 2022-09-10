@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:91fbe9e6165f7bed6c0a1720befeaf143832466a1aed2fc030fb5fa7a7a94e61
-size 727
+# Sharpen Peaks Tool
+
+Use the Sharpen Peaks Tool to sharpen peaks and flatten flat areas of the Terrain.
+
+Select a Terrain tile to bring up the Terrain Inspector. In the Terrain Inspector, click the **Paint Terrain** (brush) icon, and select **Effects > Sharpen Peaks** from the list of Terrain tools.
+
+![](images/Tools_HowToSelection.png)
+
+## Parameters
+
+![](images/Tool_SharpenPeaks_Parameters.png)
+
+| **Property**  | **Description**                                              |
+| ------------- | ------------------------------------------------------------ |
+| **Sharpness** | Controls the sharpness of peaks on a scale of 0 to 1. Values close to 1 make peaks sharper, and values closer to 0 flatten areas. |

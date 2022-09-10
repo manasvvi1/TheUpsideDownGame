@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f494e918a4af458a9da4c7421cf12633dfdb29b69730940d3e59d67d9c7ef4d8
-size 1119
+# Twist Tool
+
+Select a Terrain tile to bring up the Terrain Inspector. In the Terrain Inspector, click the **Paint Terrain** (brush) icon, and select **Transform > Twist** from the list of Terrain tools.
+
+![](images/Tools_HowToSelection.png)
+
+The Twist Tool rotates Terrain features around the center of the Brush, along the path of the Brush stroke.
+
+## Parameters
+
+![](images/Tool_Twist_Paramter.png)
+
+| **Property**     | **Description**                                              |
+| ---------------- | ------------------------------------------------------------ |
+| **Targets**      | Defines the type of Texture that the Tool twists. Click the **Materials** button to make the Tool affect the Material splat map Texture. Click the **Heightmap** button to make the Tool affect the Heightmap Texture. If you don't select either button, the tool has no effect. |
+| **Twist Amount** | The amount of rotation to twist Terrain features. The larger the value, the more intense the twist effect. Set a positive value to rotate features clockwise, and a negative value to rotate them counter-clockwise. |

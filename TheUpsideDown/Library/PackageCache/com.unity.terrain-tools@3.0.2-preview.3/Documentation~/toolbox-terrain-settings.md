@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e3aab69331f8709a9580dcca31927bc8fce643a13f35cb438737ef512d52e330
-size 475
+# Terrain Settings
+
+Previously, to change Terrain settings for multiple Terrain tiles in the Editor, you had to select each tile, and make the changes one tile at a time. The **Terrain Settings** wizard in the Toolbox eases this process. It allows you to modify Terrain settings simultaneously for multiple Terrain tiles, and save your settings in a preset Asset files. You can also load settings from existing preset Asset files.
+
+![](images/Toolbox_TerrainSettings.png)

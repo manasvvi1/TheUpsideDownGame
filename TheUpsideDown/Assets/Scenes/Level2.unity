@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.057401232, g: 0.049105566, b: 0.04041311, a: 1}
+  m_IndirectSpecularColor: {r: 0.057398535, g: 0.0491046, b: 0.040412616, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5298,62 +5298,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 667673e3d66864404bdff9e2bccc4880, type: 3}
   m_PrefabInstance: {fileID: 1125449134}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1125449136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125449135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ab4b2d01727749828e86a341baf75b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  restartgame: 32
---- !u!114 &1125449137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125449135}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1381a6ab8e3b548a3902c6e8e017f302, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  v3Force: {x: 0, y: 0, z: -0.5}
-  keypositive: 273
-  keynegative: 274
---- !u!114 &1125449138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125449135}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1381a6ab8e3b548a3902c6e8e017f302, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  v3Force: {x: -0.5, y: 0, z: 0}
-  keypositive: 275
-  keynegative: 276
---- !u!114 &1125449139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125449135}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c44bb5a6e6754b79bedda4a9ac5ae2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  v3Force: {x: 0, y: 0, z: 0}
 --- !u!143 &1125449140
 CharacterController:
   m_ObjectHideFlags: 0
@@ -5372,20 +5316,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &1125449141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125449135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c95801fc0a1ac47c984531131158b817, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  acceleration: 2
-  deceleration: 2
 --- !u!95 &1125449142
 Animator:
   serializedVersion: 3
@@ -5405,18 +5335,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1125449143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125449135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8614fbe84da2d46238ad4b257f31b238, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1125449144 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 667673e3d66864404bdff9e2bccc4880, type: 3}

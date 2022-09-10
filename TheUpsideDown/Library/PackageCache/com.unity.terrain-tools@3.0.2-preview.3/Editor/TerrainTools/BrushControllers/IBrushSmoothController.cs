@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4bcb94f4e6d6a7bdadf6e7847006ca39dffe5279659c5bf5b98b9700c318f0bd
-size 503
+
+using UnityEngine;
+
+namespace UnityEditor.Experimental.TerrainAPI
+{
+	public interface IBrushSmoothController
+	{
+		bool active { get; }
+        int kernelSize { get; set; }
+
+		void OnEnterToolMode();
+		void OnExitToolMode();
+		void OnSceneGUI(Terrain terrain, IOnSceneGUI editContext);
+		void OnInspectorGUI(Terrain terrain, IOnInspectorGUI editContext);
+		bool OnPaint(Terrain terrain, IOnPaint editContext, float brushSize, float brushRotation, float brushStrength, Vector2 uv);
+	}
+}

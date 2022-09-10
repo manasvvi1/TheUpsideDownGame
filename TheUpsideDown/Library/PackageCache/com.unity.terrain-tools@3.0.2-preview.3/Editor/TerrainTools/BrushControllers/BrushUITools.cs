@@ -1,3 +1,41 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:38844dcac0e24e076b8c8c06ba82c96c58991aa80364f2ad4e310bf7f9f9d2d2
-size 1295
+
+using UnityEngine;
+
+namespace UnityEditor.Experimental.TerrainAPI
+{
+	public static class BrushUITools
+	{
+		public static int s_TerrainEditorHash = "TerrainEditor".GetHashCode();
+		public static float ConstrainedIntField(float value, float minValue, float maxValue)
+		{
+			var intVal = Mathf.RoundToInt(value);
+			var newVal = EditorGUILayout.IntField(intVal, GUILayout.Width(50));
+			if (intVal != newVal)
+				return System.Math.Min(System.Math.Max(newVal, minValue), maxValue);
+			return value;
+		}
+
+		public static float MinMaxSliderWithTextBoxes(ref float min, ref float max, float minLimit, float maxLimit)
+		{
+			EditorGUILayout.BeginHorizontal();
+			min = ConstrainedIntField(min, minLimit, max);
+			EditorGUILayout.MinMaxSlider(ref min, ref max, minLimit, maxLimit);
+			max = ConstrainedIntField(max, min, maxLimit);
+			EditorGUILayout.EndHorizontal();
+
+			return (min + max) * 0.5f;
+		}
+
+		public static float PercentSlider(GUIContent content, float valueInPercent, float minVal, float maxVal)
+		{
+			EditorGUI.BeginChangeCheck();
+			float v = EditorGUILayout.Slider(content, Mathf.Round(valueInPercent * 100f), minVal * 100f, maxVal * 100f);
+
+			if (EditorGUI.EndChangeCheck())
+			{
+				return v / 100f;
+			}
+			return valueInPercent;
+		}
+	}
+}

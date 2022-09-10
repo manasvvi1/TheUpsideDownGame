@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 80
+  controlID: 115
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 335.19995
     height: 730.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 81
+  controlID: 116
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 82
+  controlID: 117
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -343,22 +343,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/scripts
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/scripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\manas\Downloads\TheUpsideDownGame\TheUpsideDown
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6c4e0000
-    m_LastClickedID: 20076
-    m_ExpandedIDs: 00000000324e000000ca9a3b
+    m_SelectedIDs: b04d0000
+    m_LastClickedID: 19888
+    m_ExpandedIDs: 00000000b04d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -386,7 +386,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000324e0000
+    m_ExpandedIDs: 00000000b04d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -506,10 +506,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 32}
+      scrollPos: {x: 0, y: 126}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0efbffff0c440000
+      m_ExpandedIDs: 3ae1ffff5afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -571,7 +571,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 674.85815, y: 24.119583, z: 978.45447}
     speed: 2
-    m_Value: {x: 674.8581, y: 24.119583, z: 978.4544}
+    m_Value: {x: 674.85815, y: 24.119583, z: 978.45447}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -624,7 +624,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 12.124355
     speed: 2
-    m_Value: 12.124416
+    m_Value: 12.124355
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -718,7 +718,7 @@ MonoBehaviour:
       y: 21
       width: 902.00006
       height: 338
-    m_Scale: {x: 0.99999994, y: 0.99999994}
+    m_Scale: {x: 0.99999994, y: 0.9999999}
     m_Translation: {x: 451.00003, y: 169}
     m_MarginLeft: 0
     m_MarginRight: 0

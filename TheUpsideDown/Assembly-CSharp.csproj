@@ -72,10 +72,11 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\scripts\ScoringScript.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
-     <Compile Include="Assets\mainmenu.cs" />
+     <Compile Include="Assets\scripts\mainmenu.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets\Assets(ingame)\Terrain\Tom&apos;s Terrain Tools\Example Data\Scripts\PlayerHoverController.cs" />
      <Compile Include="Assets\scripts\eleven\velocity.cs" />
+     <Compile Include="Assets\scripts\playSound.cs" />
      <Compile Include="Assets\scripts\PlayerController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\Assets(ingame)\terrain assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\CTI_Utils.cs" />
@@ -93,7 +94,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\Assets(ingame)\Terrain\Tom&apos;s Terrain Tools\Scripts\TreeExplosion.cs" />
      <Compile Include="Assets\scripts\eleven\BlendTreeAnimations.cs" />
-     <Compile Include="Assets\scripts\playSound.cs" />
+     <Compile Include="Assets\scripts\SceneChanger.cs" />
      <None Include="Assets\Assets(ingame)\terrain assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

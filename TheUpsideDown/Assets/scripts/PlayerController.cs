@@ -15,9 +15,9 @@ public class PlayerController : MonoBehaviour
 
     public float gravityScale;
 
-    public Transform pivot;
+    // public Transform pivot;
 
-    public float rotateSpeed;
+    // public float rotateSpeed;
 
     public GameObject playerModel;
 
@@ -39,20 +39,20 @@ public class PlayerController : MonoBehaviour
     void Update()
     {   
         
-        Vector3 movementDirection = new Vector3(Input.GetAxis("Horizontal"),0, Input.GetAxis("Vertical"));
+        // Vector3 movementDirection = new Vector3(Input.GetAxis("Horizontal"),0, Input.GetAxis("Vertical"));
 
-        if(movementDirection!=Vector3.zero )
-        {
-            playerModel.transform.rotation = Quaternion.LookRotation(movementDirection*(-1));
-        }
-        else
-        {
-            Vector3 lookForward;
-            lookForward.x=0;
-            lookForward.y=0;
-            lookForward.z=-1f;
-            playerModel.transform.rotation = Quaternion.LookRotation(lookForward);
-        }
+        // if(movementDirection!=Vector3.zero )
+        // {
+        //     playerModel.transform.rotation = Quaternion.LookRotation(movementDirection*(-1));
+        // }
+        // else
+        // {
+        //     Vector3 lookForward;
+        //     lookForward.x=0;
+        //     lookForward.y=0;
+        //     lookForward.z=-1f;
+        //     playerModel.transform.rotation = Quaternion.LookRotation(lookForward);
+        // }
     }
 
     // Update is called once per frame
@@ -93,21 +93,21 @@ public class PlayerController : MonoBehaviour
         controller.Move(moveDirection * Time.deltaTime);
 
         //Move the player in different directions based on the camera look
-        if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
-        {
-            transform.rotation =
-                Quaternion.Euler(0f, pivot.rotation.eulerAngles.y, 0f);
-            Quaternion newRotation =
-                Quaternion
-                    .LookRotation(new Vector3(moveDirection.x,
-                        0f,
-                        moveDirection.z));
-            playerModel.transform.rotation =
-                Quaternion
-                    .Slerp(playerModel.transform.rotation,
-                    newRotation,
-                    rotateSpeed * Time.deltaTime);
-        }
+        // if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
+        // {
+        //     transform.rotation =
+        //         Quaternion.Euler(0f, pivot.rotation.eulerAngles.y, 0f);
+        //     Quaternion newRotation =
+        //         Quaternion
+        //             .LookRotation(new Vector3(moveDirection.x,
+        //                 0f,
+        //                 moveDirection.z));
+        //     playerModel.transform.rotation =
+        //         Quaternion
+        //             .Slerp(playerModel.transform.rotation,
+        //             newRotation,
+        //             rotateSpeed * Time.deltaTime);
+        // }
     }
 
     public void Knockback(Vector3 direction)

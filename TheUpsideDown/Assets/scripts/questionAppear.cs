@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class questionAppear : MonoBehaviour
 {
-    public void Canvas questionCanvas;
+    public Canvas questionCanvas;
     // Start is called before the first frame update
     // void Start()
     // {
@@ -18,8 +18,8 @@ public class questionAppear : MonoBehaviour
     // }
 
     void OnTriggerEnter(Collider player){
-        if(player.CompareTag("player")){
-            questionAppear.GetComponent<Canvas> ().enabled = true;
+        if(player.CompareTag("Player")){
+            questionCanvas.GetComponent<Canvas> ().enabled = true;
         }
     }
 }

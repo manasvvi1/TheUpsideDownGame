@@ -6300,7 +6300,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 4.930341, z: 1.7536323}
   m_Center: {x: -0.0000000016843161, y: 1.9651737, z: 0.15151131}
---- !u!114 &1119223715
+--- !u!114 &1119223716
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6309,10 +6309,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1119223713}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16e544b1c82044b488ae797dd54726cb, type: 3}
+  m_Script: {fileID: 11500000, guid: 83a7de32cf1f2c24fb04a096dcc9822c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiObject: {fileID: 1124516986}
+  questionCanvas: {fileID: 100131345}
 --- !u!1 &1124516986
 GameObject:
   m_ObjectHideFlags: 0

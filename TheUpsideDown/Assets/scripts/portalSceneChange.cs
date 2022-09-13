@@ -20,7 +20,7 @@ public class portalSceneChange : MonoBehaviour
         
     // }
     void OnTriggerEnter(Collider other){
-        Debug.Log("QUIT!");
+        // Debug.Log("QUIT!");
         if(other.CompareTag("portal") && solvedQ == numQues){
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }

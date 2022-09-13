@@ -18,10 +18,10 @@ public class BlendTreeAnimations : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool forwardPressed = Input.GetKey("w");
-        bool rightPressed = Input.GetKey("d");
-        bool leftPressed = Input.GetKey("a");
-        bool backPressed = Input.GetKey("x");
+        bool forwardPressed = Input.GetKey("w") || Input.GetKey("up");
+        bool rightPressed = Input.GetKey("d") || Input.GetKey("right");
+        bool leftPressed = Input.GetKey("a") || Input.GetKey("left");
+        bool backPressed = Input.GetKey("s") || Input.GetKey("down");
 
         if (forwardPressed && velocityZ < 0.5f) {
             velocityZ += Time.deltaTime * acceleration;
@@ -35,11 +35,19 @@ public class BlendTreeAnimations : MonoBehaviour
             velocityX += Time.deltaTime * acceleration;
         }
 
+        if (backPressed && velocityZ > -0.5f) {
+            velocityZ -= Time.deltaTime * acceleration;
+        }
+
         if (!forwardPressed && velocityZ > 0.0f) {
             velocityZ -= Time.deltaTime * deceleration;
         }
 
-        if (!forwardPressed && velocityZ < 0.0f) {
+        if (!backPressed && velocityZ < 0.0f) {
+            velocityZ += Time.deltaTime * deceleration;
+        }
+
+        if (!forwardPressed && !backPressed && velocityZ != 0.0f && (velocityZ > -0.05f && velocityZ < 0.05f)) {
             velocityZ = 0.0f;
         }
 

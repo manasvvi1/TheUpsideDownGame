@@ -96,6 +96,9 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\Assets(ingame)\Terrain\Tom&apos;s Terrain Tools\Scripts\TreeExplosion.cs" />
      <Compile Include="Assets\scripts\eleven\BlendTreeAnimations.cs" />
+     <Compile Include="Assets\scripts\QuestionsPop1.cs" />
+     <Compile Include="Assets\scripts\demoPop.cs" />
+     <Compile Include="Assets\scripts\questionAppear.cs" />
      <None Include="Assets\Assets(ingame)\terrain assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

@@ -123,6 +123,24 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &324064378 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f074587fb594d48b58cdf8be117d0855, type: 3}
+  m_PrefabInstance: {fileID: 1451325681}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &324064379
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324064378}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 33.64
+  m_Center: {x: -8.87, y: -23.25, z: -8.8}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,8 +461,35 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!65 &1022380881
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022380874}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7310785, y: 1.7151637, z: 0.40176547}
+  m_Center: {x: -0.0054337597, y: 0.7642776, z: -0.0391197}
+--- !u!114 &1022380882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022380874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d28bf308eba2f05458ca2a0e1662190d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numQues: 0
+  solvedQ: 0
 --- !u!1 &1141055136
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,6 +999,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f074587fb594d48b58cdf8be117d0855, type: 3}
       propertyPath: m_Name
       value: ImageToStl.com_portal
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f074587fb594d48b58cdf8be117d0855, type: 3}
+      propertyPath: m_TagString
+      value: portal
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f074587fb594d48b58cdf8be117d0855, type: 3}

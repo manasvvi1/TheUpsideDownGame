@@ -1048,7 +1048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 124bf6a237d124a4f8264f40183bea01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreText: {fileID: 1850916163}
+  ScoreText: {fileID: 0}
   Weapons: 0
   collectSound: {fileID: 989882417}
 --- !u!114 &169217860
@@ -3503,7 +3503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 124bf6a237d124a4f8264f40183bea01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreText: {fileID: 1850916163}
+  ScoreText: {fileID: 0}
   Weapons: 0
   collectSound: {fileID: 989882417}
 --- !u!114 &578679237
@@ -6504,13 +6504,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26a051c29542b405bbef5ba0477e1989, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
-  jumpForce: 50
+  moveSpeed: 20
+  jumpForce: 30
   controller: {fileID: 1125449140}
   gravityScale: 9.8
-  playerModel: {fileID: 1634171885}
-  knockBackForce: 0
-  knockBackTime: 0
+  playerModel: {fileID: 1125449135}
+  knockBackForce: 10
+  knockBackTime: 10
 --- !u!114 &1125449137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7250,7 +7250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 124bf6a237d124a4f8264f40183bea01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreText: {fileID: 1850916163}
+  ScoreText: {fileID: 0}
   Weapons: 0
   collectSound: {fileID: 989882417}
 --- !u!65 &1222911327
@@ -8947,11 +8947,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37804f44fb6382743bfc0c7778484693, type: 3}
---- !u!1 &1634171885 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3389140300247833057, guid: 667673e3d66864404bdff9e2bccc4880, type: 3}
-  m_PrefabInstance: {fileID: 1125449134}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1649596059
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12178,7 +12173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 124bf6a237d124a4f8264f40183bea01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreText: {fileID: 1850916163}
+  ScoreText: {fileID: 0}
   Weapons: 0
   collectSound: {fileID: 989882417}
 --- !u!65 &2080502103
@@ -12237,7 +12232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 124bf6a237d124a4f8264f40183bea01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreText: {fileID: 1850916163}
+  ScoreText: {fileID: 0}
   Weapons: 0
   collectSound: {fileID: 989882417}
 --- !u!65 &2085118358

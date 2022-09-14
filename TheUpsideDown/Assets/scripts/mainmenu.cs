@@ -13,7 +13,6 @@ public class mainmenu : MonoBehaviour
     public void quitgame ()
     {
         Debug.Log("QUIT!");
-        Application.Quit();
-
+        SceneManager.LoadScene(8);
     }
 }

@@ -1048,7 +1048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 124bf6a237d124a4f8264f40183bea01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreText: {fileID: 0}
+  weaponText: {fileID: 1850916163}
   Weapons: 0
   collectSound: {fileID: 989882417}
 --- !u!114 &169217860
@@ -3503,7 +3503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 124bf6a237d124a4f8264f40183bea01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreText: {fileID: 0}
+  weaponText: {fileID: 1850916163}
   Weapons: 0
   collectSound: {fileID: 989882417}
 --- !u!114 &578679237
@@ -5314,7 +5314,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1503.4, y: -520}
+  m_AnchoredPosition: {x: 560, y: -520}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &985605234
@@ -5344,7 +5344,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 2
     m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -6323,8 +6323,12 @@ MonoBehaviour:
   questionCanvas: {fileID: 100131345}
   submit: {fileID: 1579929014}
   answer: {fileID: 1746159430}
-  score: 0
   questionText: {fileID: 607376803}
+  scoreText: {fileID: 985605232}
+  livesText: {fileID: 1884704926}
+  portal: {fileID: 2053318022}
+  numQ: 3
+  solvedQ: 0
 --- !u!1 &1124516986
 GameObject:
   m_ObjectHideFlags: 0
@@ -6550,8 +6554,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d28bf308eba2f05458ca2a0e1662190d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numQues: 8
-  solvedQ: 0
 --- !u!143 &1125449140
 CharacterController:
   m_ObjectHideFlags: 0
@@ -7250,7 +7252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 124bf6a237d124a4f8264f40183bea01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreText: {fileID: 0}
+  weaponText: {fileID: 1850916163}
   Weapons: 0
   collectSound: {fileID: 989882417}
 --- !u!65 &1222911327
@@ -12173,7 +12175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 124bf6a237d124a4f8264f40183bea01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreText: {fileID: 0}
+  weaponText: {fileID: 1850916163}
   Weapons: 0
   collectSound: {fileID: 989882417}
 --- !u!65 &2080502103
@@ -12232,7 +12234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 124bf6a237d124a4f8264f40183bea01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreText: {fileID: 0}
+  weaponText: {fileID: 1850916163}
   Weapons: 0
   collectSound: {fileID: 989882417}
 --- !u!65 &2085118358
